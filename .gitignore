@@ -1,4 +1,36 @@
-# Ignore Unity specific files/folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+Packages/
+ProjectSettings/
+MemoryCaptures/
+
+# Ignore .vs, .idea, and .vscode
+.vs/
+.idea/
+.vscode/
+
+# Ignore crash reports
+*.crash
+*.dmp
+
+# Ignore compiled files
+*.csproj
+*.sln
+
+# Ignore user-specific Unity files
+*.userprefs
+*.pidb
+*.suo
+*.sln*
+*.unityproj
+
+# Ignore LFS files (optional)
+*.lfs# Ignore Unity specific files/folders
 [Ll]ibrary/
 [Tt]emp/
 [Tt]argets/
