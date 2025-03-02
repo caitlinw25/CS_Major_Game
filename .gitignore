@@ -1,0 +1,17 @@
+Library/
+Logs/
+Temp/
+Obj/
+Build/
+Builds/
+UserSettings/
+Packages/packages-lock.json
+*.csproj
+*.sln
+*.userprefs
+.vscode/
+*.pidb
+*.suo
+*.user
+*.unityproj
+*.booproj
