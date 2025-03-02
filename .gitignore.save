@@ -1,0 +1,31 @@
+Library/
+Logs/
+Temp/
+Obj/
+Build/
+Builds/
+UserSettings/
+Packages/packages-lock.json
+*.csproj
+*.sln
+*.userprefs
+.vscode/
+*.pidb
+*.suo
+*.user
+*.unityproj
+*.booproj# Ignore Unity specific files/folders
+[Ll]ibrary/
+[Tt]emp/
+[Tt]argets/
+.vscode/
+.idea/
+
+# Ignore build results
+Build/
+Builds/
+
+# Ignore user-specific files
+UserSettings/
+
+# Ignore hidden system files 
