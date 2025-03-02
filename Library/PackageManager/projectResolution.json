@@ -19,6 +19,16 @@
       "source": "registry",
       "testable": false
     },
+    "com.unity.cinemachine@3.1.3": {
+      "name": "com.unity.cinemachine",
+      "displayName": "Cinemachine",
+      "resolvedPath": "/Users/caitlinywright/Documents/CS_Projects/CS_Major_Game/Library/PackageCache/com.unity.cinemachine@624f919d8cdd",
+      "fingerprint": "624f919d8cdd376712eda21b43abcb0330c023e2",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "3.1.3",
+      "source": "registry",
+      "testable": false
+    },
     "com.unity.collab-proxy@2.7.1": {
       "name": "com.unity.collab-proxy",
       "displayName": "Version Control",
@@ -481,6 +491,16 @@
       "source": "builtin",
       "testable": false
     },
+    "com.unity.splines@2.7.2": {
+      "name": "com.unity.splines",
+      "displayName": "Splines",
+      "resolvedPath": "/Users/caitlinywright/Documents/CS_Projects/CS_Major_Game/Library/PackageCache/com.unity.splines@d3e1e500c9a0",
+      "fingerprint": "d3e1e500c9a0fa3a1e812117108982dd612c2e27",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "2.7.2",
+      "source": "registry",
+      "testable": false
+    },
     "com.unity.burst@1.8.18": {
       "name": "com.unity.burst",
       "displayName": "Burst",
@@ -519,6 +539,16 @@
       "editorCompatibility": "2023.3.0b1",
       "version": "1.0.1",
       "source": "builtin",
+      "testable": false
+    },
+    "com.unity.settings-manager@2.0.1": {
+      "name": "com.unity.settings-manager",
+      "displayName": "Settings Manager",
+      "resolvedPath": "/Users/caitlinywright/Documents/CS_Projects/CS_Major_Game/Library/PackageCache/com.unity.settings-manager@56a930affa1e",
+      "fingerprint": "56a930affa1e4462d3595b5c19a1c2a4bf2015d2",
+      "editorCompatibility": "2018.4.0a1",
+      "version": "2.0.1",
+      "source": "registry",
       "testable": false
     },
     "com.unity.nuget.mono-cecil@1.11.4": {
