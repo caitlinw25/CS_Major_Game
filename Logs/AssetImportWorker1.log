@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-55091
+58427
 -job-worker-count
 3
 -background-job-worker-count
@@ -68,7 +68,7 @@ Successfully changed project path to: /Users/caitlinywright/Documents/CS_Project
     "memorysetup-temp-allocator-size-gfx=262144"
 Player connection [8387856448]  Target information:
 
-Player connection [8387856448]  * "[IP] 192.168.68.79 [Port] 0 [Flags] 2 [Guid] 2643358688 [EditorId] 2643358688 [Version] 1048832 [Id] OSXEditor(0,Caitlins-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+Player connection [8387856448]  * "[IP] 192.168.68.79 [Port] 0 [Flags] 2 [Guid] 630811800 [EditorId] 630811800 [Version] 1048832 [Id] OSXEditor(0,Caitlins-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
 
 Player connection [8387856448] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [8387856448] Host joined alternative multi-casting on [225.0.0.222:34997]...
@@ -83,7 +83,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 11.57 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 3.95 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.35f1 (9a3bc604008a)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.0.35f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -98,43 +98,43 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/6000.0.35f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/6000.0.35f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/6000.0.35f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56910
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56981
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/6000.0.35f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001867 seconds.
-- Loaded All Assemblies, in  0.349 seconds
+Registered in 0.001759 seconds.
+- Loaded All Assemblies, in  0.317 seconds
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.314 seconds
-Domain Reload Profiling: 663ms
-	BeginReloadAssembly (111ms)
+- Finished resetting the current domain, in  0.322 seconds
+Domain Reload Profiling: 640ms
+	BeginReloadAssembly (102ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (41ms)
+	RebuildCommonClasses (34ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (147ms)
-		LoadAssemblies (111ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (131ms)
+		LoadAssemblies (101ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (144ms)
-			TypeCache.Refresh (142ms)
-				TypeCache.ScanAssembly (119ms)
+		AnalyzeDomain (128ms)
+			TypeCache.Refresh (127ms)
+				TypeCache.ScanAssembly (115ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (315ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (323ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (270ms)
+		SetupLoadedEditorAssemblies (268ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (40ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (45ms)
-			ProcessInitializeOnLoadAttributes (109ms)
-			ProcessInitializeOnLoadMethodAttributes (71ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (111ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -143,116 +143,236 @@ Domain Reload Profiling: 663ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.820 seconds
-Refreshing native plugins compatible for Editor in 0.24 ms, found 2 plugins.
+- Loaded All Assemblies, in  0.705 seconds
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.UIElement.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Configuration.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.high-definition/Editor/Wizard/HDWizard.Window.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
 Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.731 seconds
-Domain Reload Profiling: 1551ms
-	BeginReloadAssembly (98ms)
+- Finished resetting the current domain, in  0.700 seconds
+Domain Reload Profiling: 1405ms
+	BeginReloadAssembly (101ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (28ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (659ms)
-		LoadAssemblies (402ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (539ms)
+		LoadAssemblies (277ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (297ms)
-			TypeCache.Refresh (247ms)
-				TypeCache.ScanAssembly (225ms)
-			BuildScriptInfoCaches (41ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (731ms)
+		AnalyzeDomain (303ms)
+			TypeCache.Refresh (240ms)
+				TypeCache.ScanAssembly (215ms)
+			BuildScriptInfoCaches (51ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (700ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (581ms)
+		SetupLoadedEditorAssemblies (548ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
+			InitializePlatformSupportModulesInManaged (2ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (91ms)
-			ProcessInitializeOnLoadAttributes (348ms)
-			ProcessInitializeOnLoadMethodAttributes (134ms)
+			BeforeProcessingInitializeOnLoad (93ms)
+			ProcessInitializeOnLoadAttributes (353ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
 			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (2ms)
+		AwakeInstancesAfterBackupRestoration (3ms)
 Launching external process: /Applications/Unity/Hub/Editor/6000.0.35f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.23 seconds
-Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 198 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5944 unused Assets / (8.0 MB). Loaded Objects now: 6562.
-Memory consumption went from 146.9 MB to 138.8 MB.
-Total: 17.011625 ms (FindLiveObjects: 0.616833 ms CreateObjectMapping: 0.272042 ms MarkObjects: 10.818292 ms  DeleteObjects: 5.303792 ms)
+Unloading 454 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7646 unused Assets / (17.6 MB). Loaded Objects now: 8302.
+Memory consumption went from 236.8 MB to 219.2 MB.
+Total: 38.552792 ms (FindLiveObjects: 8.946459 ms CreateObjectMapping: 1.065791 ms MarkObjects: 11.486167 ms  DeleteObjects: 17.053458 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 102662.637478 seconds.
-  path: Assets/Readme.asset
-  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '50ea5ad2cda8720781b90d71f311d8d1') in 0.028096292 seconds
+  Time since last request: 109309.685626 seconds.
+  path: Assets/ALP_Assets/Realistic Terrain Textures Lite/Terrain Layers/Ground006.terrainlayer
+  artifactKey: Guid(906ea75245880804aa869574650b5ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ALP_Assets/Realistic Terrain Textures Lite/Terrain Layers/Ground006.terrainlayer using Guid(906ea75245880804aa869574650b5ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '590309a0089e779b986857ce238501c1') in 0.135560625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 82.008164 seconds.
+  path: Assets/GrassFlowers/Textures/GrassFlowers/grassFlower01.tga
+  artifactKey: Guid(5733619f617fd954cac22d3d11fd1b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrassFlowers/Textures/GrassFlowers/grassFlower01.tga using Guid(5733619f617fd954cac22d3d11fd1b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83ec3d659f4dd2798c474353dad20e65') in 0.072074542 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 46 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 46 unused Assets / (4.6 MB). Loaded Objects now: 6565.
-Memory consumption went from 121.0 MB to 116.4 MB.
-Total: 9.589250 ms (FindLiveObjects: 0.539625 ms CreateObjectMapping: 0.502625 ms MarkObjects: 6.967208 ms  DeleteObjects: 1.578791 ms)
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/GrassFlowers/Textures/GrassFlowers/grassFlower03.tga
+  artifactKey: Guid(c6bde8cacfa93444fa98152cb9e36815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrassFlowers/Textures/GrassFlowers/grassFlower03.tga using Guid(c6bde8cacfa93444fa98152cb9e36815) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a2682c7a1eb8175baeb5857a4aaf657') in 0.008155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Thread 0x3179cb000 may have been prematurely finalized
-- Loaded All Assemblies, in  0.616 seconds
-Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
-Native extension for OSXStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.633 seconds
-Domain Reload Profiling: 1252ms
-	BeginReloadAssembly (184ms)
-		ExecutionOrderSort (1ms)
-		DisableScriptedObjects (14ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (70ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (16ms)
-	LoadAllAssembliesAndSetupDomain (379ms)
-		LoadAssemblies (249ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (178ms)
-			TypeCache.Refresh (117ms)
-				TypeCache.ScanAssembly (102ms)
-			BuildScriptInfoCaches (50ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (633ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (368ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (87ms)
-			ProcessInitializeOnLoadAttributes (239ms)
-			ProcessInitializeOnLoadMethodAttributes (36ms)
-			AfterProcessingInitializeOnLoad (1ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 56 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 5961 unused Assets / (6.5 MB). Loaded Objects now: 6603.
-Memory consumption went from 147.3 MB to 140.9 MB.
-Total: 13.523625 ms (FindLiveObjects: 0.512375 ms CreateObjectMapping: 0.281375 ms MarkObjects: 9.131041 ms  DeleteObjects: 3.597875 ms)
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/GrassFlowers/Textures/GrassFlowers/grassFlower04.tga
+  artifactKey: Guid(5c744e80ad52c884c9ac4c9139b3aaae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrassFlowers/Textures/GrassFlowers/grassFlower04.tga using Guid(5c744e80ad52c884c9ac4c9139b3aaae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47a8febf98603408c8f307c2bcf9a4b3') in 0.00954875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
-Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/GrassFlowers/Textures/GrassFlowers/grassFlower08.tga
+  artifactKey: Guid(8900a35e436818940b97df26c3a8a1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrassFlowers/Textures/GrassFlowers/grassFlower08.tga using Guid(8900a35e436818940b97df26c3a8a1aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01b1e9be0ee6f8e5b26ef61ca3905f85') in 0.006929166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/GrassFlowers/Textures/GrassFlowers/grassFlower06.tga
+  artifactKey: Guid(b3d0250e4b7a1ac4abe98a38d34d2048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrassFlowers/Textures/GrassFlowers/grassFlower06.tga using Guid(b3d0250e4b7a1ac4abe98a38d34d2048) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2e53282667d05b0551699d1ff187747') in 0.006538167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/GrassFlowers/Textures/GrassFlowers/grassFlower02.tga
+  artifactKey: Guid(b0601839c4520064bb61d58d088810bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GrassFlowers/Textures/GrassFlowers/grassFlower02.tga using Guid(b0601839c4520064bb61d58d088810bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8bb1c64a0d8b08e6f544c3c6e498287') in 0.006255375 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.326499 seconds.
+  path: Assets/TreePackVol.1/Prefabs/3/Tree 3_Textures/normal_specular.png
+  artifactKey: Guid(fcfeb46787ac0204b98cb79f6a137e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TreePackVol.1/Prefabs/3/Tree 3_Textures/normal_specular.png using Guid(fcfeb46787ac0204b98cb79f6a137e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dad69bf67dc1934d9b903833bf364a66') in 0.007354458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TreePackVol.1/Prefabs/5/Tree 4_Textures/normal_specular.png
+  artifactKey: Guid(0f4e7c09a040cb5488b8c1760f21da88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TreePackVol.1/Prefabs/5/Tree 4_Textures/normal_specular.png using Guid(0f4e7c09a040cb5488b8c1760f21da88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe4a84bb0a93223ff79e3eb67bb55e6a') in 0.005514125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/TreePackVol.1/Prefabs/3/Tree 7_Textures/normal_specular.png
+  artifactKey: Guid(da8d7185a47028542abaa730759ea2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TreePackVol.1/Prefabs/3/Tree 7_Textures/normal_specular.png using Guid(da8d7185a47028542abaa730759ea2df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c9d1c1e8be4f4895e460ad42abd34a8') in 0.005331875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/TreePackVol.1/Prefabs/Palm/Tree 1_Textures/normal_specular.png
+  artifactKey: Guid(dbe2caf47bd0db444be9b12225beda4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TreePackVol.1/Prefabs/Palm/Tree 1_Textures/normal_specular.png using Guid(dbe2caf47bd0db444be9b12225beda4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e3d066f5493c27321c000e69c8977fd') in 0.004916083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.536688 seconds.
+  path: Assets/TreePackVol.1/Prefabs/4/Tree3_Textures/normal_specular.png
+  artifactKey: Guid(0e2eea68cc858c64eb2e6df3b5ce21c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TreePackVol.1/Prefabs/4/Tree3_Textures/normal_specular.png using Guid(0e2eea68cc858c64eb2e6df3b5ce21c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aadb80d0b68cb37ee823609e80b40e6f') in 0.005446917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/TreePackVol.1/Prefabs/4/Tree4_Textures/normal_specular.png
+  artifactKey: Guid(be16f525b1b1ca94d8f009e6ab57f962) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TreePackVol.1/Prefabs/4/Tree4_Textures/normal_specular.png using Guid(be16f525b1b1ca94d8f009e6ab57f962) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ab879b313bb3adfe07a00820425ed86') in 0.004994459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/TreePackVol.1/Prefabs/5/Tree 9_Textures/normal_specular.png
+  artifactKey: Guid(b25e14fe99fd6054db8093a235c58253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TreePackVol.1/Prefabs/5/Tree 9_Textures/normal_specular.png using Guid(b25e14fe99fd6054db8093a235c58253) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61e85f3f77a661a940795988a366c290') in 0.0064505 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/TreePackVol.1/Prefabs/Palm/Tree 2_Textures/normal_specular.png
+  artifactKey: Guid(ef8ca01e06431e54cbc1fc5489ce3a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TreePackVol.1/Prefabs/Palm/Tree 2_Textures/normal_specular.png using Guid(ef8ca01e06431e54cbc1fc5489ce3a86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58acad3dc6b44666d30406aa245c3975') in 0.005640708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/TreePackVol.1/Prefabs/0/Tree9_Textures/normal_specular.png
+  artifactKey: Guid(c4d0a44be8b193549846699bb2a778dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TreePackVol.1/Prefabs/0/Tree9_Textures/normal_specular.png using Guid(c4d0a44be8b193549846699bb2a778dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f46abeac37aa7d813999567f433dda43') in 0.007622958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TreePackVol.1/Prefabs/5/Tree 8_Textures/normal_specular.png
+  artifactKey: Guid(70cdb8849f2c41946ac5a800b448522b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TreePackVol.1/Prefabs/5/Tree 8_Textures/normal_specular.png using Guid(70cdb8849f2c41946ac5a800b448522b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4880d456626eed69937e83e344181fe') in 0.004658042 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/TreePackVol.1/Prefabs/5/Tree 6_Textures/normal_specular.png
+  artifactKey: Guid(4269c1688c66e6b47a3b268ed09ec80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TreePackVol.1/Prefabs/5/Tree 6_Textures/normal_specular.png using Guid(4269c1688c66e6b47a3b268ed09ec80e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19199b4cced4e1b88ed7af294dc7fe8d') in 0.005167708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/TreePackVol.1/Prefabs/0/Tree8_Textures/normal_specular.png
+  artifactKey: Guid(a7aca48032aa9a24db2b9ee1a57e83cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TreePackVol.1/Prefabs/0/Tree8_Textures/normal_specular.png using Guid(a7aca48032aa9a24db2b9ee1a57e83cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd4b8229556b686641524146e890b57f') in 0.006162334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/TreePackVol.1/Prefabs/0/Tree12_Textures/normal_specular.png
+  artifactKey: Guid(c93b2a8b567b4b349a15343cd9645398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TreePackVol.1/Prefabs/0/Tree12_Textures/normal_specular.png using Guid(c93b2a8b567b4b349a15343cd9645398) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '165c4639f8ea9abdd39c41b3b5570416') in 0.004931625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/TreePackVol.1/Prefabs/0/Tree4_Textures/normal_specular.png
+  artifactKey: Guid(e365616a98044a442b2eb0d6f3b6aaaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TreePackVol.1/Prefabs/0/Tree4_Textures/normal_specular.png using Guid(e365616a98044a442b2eb0d6f3b6aaaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8e7d93bfac233254e73c4b3e7ca12e91') in 0.005822709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TreePackVol.1/Prefabs/0/Tree5_Textures/normal_specular.png
+  artifactKey: Guid(da926191ea37beb41b26d48af38fa4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TreePackVol.1/Prefabs/0/Tree5_Textures/normal_specular.png using Guid(da926191ea37beb41b26d48af38fa4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1cf4cd09a6616397102f016d3e08a5f') in 0.0049935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TreePackVol.1/Prefabs/0/Tree1_Textures/normal_specular.png
+  artifactKey: Guid(c770466cb35d24340bf699ebcb18bbb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TreePackVol.1/Prefabs/0/Tree1_Textures/normal_specular.png using Guid(c770466cb35d24340bf699ebcb18bbb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f210027e05da5dbd384106041d8a007b') in 0.005055875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+

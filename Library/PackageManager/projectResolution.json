@@ -49,6 +49,16 @@
       "source": "registry",
       "testable": false
     },
+    "com.unity.ide.vscode@1.2.5": {
+      "name": "com.unity.ide.vscode",
+      "displayName": "Visual Studio Code Editor",
+      "resolvedPath": "/Users/caitlinywright/Documents/CS_Projects/CS_Major_Game/Library/PackageCache/com.unity.ide.vscode@82e68656b7bd",
+      "fingerprint": "82e68656b7bdc5da8beb1fbaf1bb4ecf13456d51",
+      "editorCompatibility": "2019.2.0a12",
+      "version": "1.2.5",
+      "source": "registry",
+      "testable": false
+    },
     "com.unity.inputsystem@1.11.2": {
       "name": "com.unity.inputsystem",
       "displayName": "Input System",
@@ -69,11 +79,31 @@
       "source": "builtin",
       "testable": false
     },
+    "com.unity.render-pipelines.high-definition@17.0.3": {
+      "name": "com.unity.render-pipelines.high-definition",
+      "displayName": "High Definition RP",
+      "resolvedPath": "/Users/caitlinywright/Documents/CS_Projects/CS_Major_Game/Library/PackageCache/com.unity.render-pipelines.high-definition@b43ee0042812",
+      "fingerprint": "b43ee00428129c2c7bf176f49388b5c5f8279fd7",
+      "editorCompatibility": "6000.0.0a1",
+      "version": "17.0.3",
+      "source": "builtin",
+      "testable": false
+    },
     "com.unity.render-pipelines.universal@17.0.3": {
       "name": "com.unity.render-pipelines.universal",
       "displayName": "Universal RP",
       "resolvedPath": "/Users/caitlinywright/Documents/CS_Projects/CS_Major_Game/Library/PackageCache/com.unity.render-pipelines.universal@39c80789bb81",
       "fingerprint": "39c80789bb8143337aed936c9422ddd10fa5cd42",
+      "editorCompatibility": "6000.0.0a1",
+      "version": "17.0.3",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.shadergraph@17.0.3": {
+      "name": "com.unity.shadergraph",
+      "displayName": "Shader Graph",
+      "resolvedPath": "/Users/caitlinywright/Documents/CS_Projects/CS_Major_Game/Library/PackageCache/com.unity.shadergraph@911117698220",
+      "fingerprint": "9111176982208cf007caa931c3cf2716ceec4632",
       "editorCompatibility": "6000.0.0a1",
       "version": "17.0.3",
       "source": "builtin",
@@ -411,14 +441,14 @@
       "source": "builtin",
       "testable": false
     },
-    "com.unity.shadergraph@17.0.3": {
-      "name": "com.unity.shadergraph",
-      "displayName": "Shader Graph",
-      "resolvedPath": "/Users/caitlinywright/Documents/CS_Projects/CS_Major_Game/Library/PackageCache/com.unity.shadergraph@911117698220",
-      "fingerprint": "9111176982208cf007caa931c3cf2716ceec4632",
-      "editorCompatibility": "6000.0.0a1",
-      "version": "17.0.3",
-      "source": "builtin",
+    "com.unity.searcher@4.9.2": {
+      "name": "com.unity.searcher",
+      "displayName": "Searcher",
+      "resolvedPath": "/Users/caitlinywright/Documents/CS_Projects/CS_Major_Game/Library/PackageCache/com.unity.searcher@90d011a70418",
+      "fingerprint": "90d011a70418fd5b0f4b8e86df39444d2af228dd",
+      "editorCompatibility": "2019.1.0a1",
+      "version": "4.9.2",
+      "source": "registry",
       "testable": false
     },
     "com.unity.render-pipelines.universal-config@17.0.3": {
@@ -431,14 +461,24 @@
       "source": "builtin",
       "testable": false
     },
-    "com.unity.searcher@4.9.2": {
-      "name": "com.unity.searcher",
-      "displayName": "Searcher",
-      "resolvedPath": "/Users/caitlinywright/Documents/CS_Projects/CS_Major_Game/Library/PackageCache/com.unity.searcher@90d011a70418",
-      "fingerprint": "90d011a70418fd5b0f4b8e86df39444d2af228dd",
-      "editorCompatibility": "2019.1.0a1",
-      "version": "4.9.2",
-      "source": "registry",
+    "com.unity.visualeffectgraph@17.0.3": {
+      "name": "com.unity.visualeffectgraph",
+      "displayName": "Visual Effect Graph",
+      "resolvedPath": "/Users/caitlinywright/Documents/CS_Projects/CS_Major_Game/Library/PackageCache/com.unity.visualeffectgraph@947cc2b7941c",
+      "fingerprint": "947cc2b7941cb523268049da4bfd6ce861e21692",
+      "editorCompatibility": "6000.0.0a1",
+      "version": "17.0.3",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.render-pipelines.high-definition-config@17.0.3": {
+      "name": "com.unity.render-pipelines.high-definition-config",
+      "displayName": "High Definition RP Config",
+      "resolvedPath": "/Users/caitlinywright/Documents/CS_Projects/CS_Major_Game/Library/PackageCache/com.unity.render-pipelines.high-definition-config@d45858853e61",
+      "fingerprint": "d45858853e614916d0e96df55a30b8c69d642992",
+      "editorCompatibility": "6000.0.0a1",
+      "version": "17.0.3",
+      "source": "builtin",
       "testable": false
     },
     "com.unity.burst@1.8.18": {

@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638765188600000000
-    m_Hash: 3237125217
+      ticks: 638765248130000000
+    m_Hash: 991264444
   m_LockFileStatus:
     m_FilePath: /Users/caitlinywright/Documents/CS_Projects/CS_Major_Game/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638765188600000000
-    m_Hash: 956962976
+      ticks: 638765248130000000
+    m_Hash: 3611085921
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -541,6 +541,99 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.22
     minimumUnityVersion: 2019.4.25f1
+- packageId: com.unity.ide.vscode@1.2.5
+  testable: 0
+  isDirectDependency: 1
+  version: 1.2.5
+  source: 1
+  resolvedPath: /Users/caitlinywright/Documents/CS_Projects/CS_Major_Game/Library/PackageCache/com.unity.ide.vscode@82e68656b7bd
+  assetPath: Packages/com.unity.ide.vscode
+  name: com.unity.ide.vscode
+  displayName: Visual Studio Code Editor
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: Code editor integration for supporting Visual Studio Code as code
+    editor for unity. Adds support for generating csproj files for intellisense purposes,
+    auto discovery of installations, etc.
+  errors: []
+  versions:
+    all:
+    - 1.0.2
+    - 1.0.3
+    - 1.0.7
+    - 1.1.0
+    - 1.1.2
+    - 1.1.3
+    - 1.1.4
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    - 1.2.4
+    - 1.2.5
+    compatible:
+    - 1.0.2
+    - 1.0.3
+    - 1.0.7
+    - 1.1.0
+    - 1.1.2
+    - 1.1.3
+    - 1.1.4
+    - 1.2.0
+    - 1.2.1
+    - 1.2.2
+    - 1.2.3
+    - 1.2.4
+    - 1.2.5
+    recommended: 
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637800255360000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.ide.vscode.git
+    revision: b0740c80bfc2440527c317109f7c3d9100132722
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 1
+    deprecationMessage: Visual Studio Code package is not supported anymore. You
+      can continue to use it, but we won't provide any update anymore.
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 82e68656b7bdc5da8beb1fbaf1bb4ecf13456d51
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 1.0.2
+    minimumUnityVersion: 2019.2.0a12
 - packageId: com.unity.inputsystem@1.11.2
   testable: 0
   isDirectDependency: 1
@@ -788,6 +881,241 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 6000.0.0a1
+- packageId: com.unity.render-pipelines.high-definition@17.0.3
+  testable: 0
+  isDirectDependency: 1
+  version: 17.0.3
+  source: 2
+  resolvedPath: /Users/caitlinywright/Documents/CS_Projects/CS_Major_Game/Library/PackageCache/com.unity.render-pipelines.high-definition@b43ee0042812
+  assetPath: Packages/com.unity.render-pipelines.high-definition
+  name: com.unity.render-pipelines.high-definition
+  displayName: High Definition RP
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: The High Definition Render Pipeline (HDRP) is a high-fidelity Scriptable
+    Render Pipeline built by Unity to target modern (Compute Shader compatible) platforms.
+    HDRP utilizes Physically-Based Lighting techniques, linear lighting, HDR lighting,
+    and a configurable hybrid Tile/Cluster deferred/Forward lighting architecture
+    and gives you the tools you need to create games, technical demos, animations,
+    and more to a high graphical standard.
+  errors: []
+  versions:
+    all:
+    - 0.1.21
+    - 0.1.27
+    - 0.1.28
+    - 1.0.0-beta
+    - 1.0.1-beta
+    - 1.1.1-preview
+    - 1.1.2-preview
+    - 1.1.4-preview
+    - 1.1.5-preview
+    - 1.1.8-preview
+    - 1.1.10-preview
+    - 1.1.11-preview
+    - 2.0.1-preview
+    - 2.0.3-preview
+    - 2.0.4-preview
+    - 2.0.4-preview.1
+    - 2.0.5-preview
+    - 2.0.6-preview
+    - 2.0.7-preview
+    - 2.0.8-preview
+    - 3.0.0-preview
+    - 3.1.0-preview
+    - 3.3.0-preview
+    - 4.0.0-preview
+    - 4.0.1-preview
+    - 4.1.0-preview
+    - 4.2.0-preview
+    - 4.3.0-preview
+    - 4.6.0-preview
+    - 4.8.0-preview
+    - 4.9.0-preview
+    - 4.10.0-preview
+    - 5.0.0-preview
+    - 5.1.0-preview
+    - 5.2.0-preview
+    - 5.2.1-preview
+    - 5.2.2-preview
+    - 5.2.3-preview
+    - 5.3.1-preview
+    - 5.6.1-preview
+    - 5.7.2-preview
+    - 5.8.2-preview
+    - 5.9.0-preview
+    - 5.10.0-preview
+    - 5.13.0-preview
+    - 5.16.1-preview
+    - 6.5.2-preview
+    - 6.5.3-preview
+    - 6.7.1-preview
+    - 6.9.0-preview
+    - 6.9.1-preview
+    - 6.9.2-preview
+    - 7.0.0
+    - 7.0.1
+    - 7.1.1
+    - 7.1.2
+    - 7.1.5
+    - 7.1.6
+    - 7.1.7
+    - 7.1.8
+    - 7.2.0
+    - 7.2.1
+    - 7.3.1
+    - 7.4.1
+    - 7.4.2
+    - 7.4.3
+    - 7.5.1
+    - 7.5.2
+    - 7.5.3
+    - 7.6.0
+    - 7.7.0
+    - 7.7.1
+    - 8.0.1
+    - 8.1.0
+    - 8.2.0
+    - 8.3.1
+    - 9.0.0-preview.13
+    - 9.0.0-preview.33
+    - 9.0.0-preview.54
+    - 9.0.0-preview.71
+    - 10.0.0-preview.27
+    - 10.1.0
+    - 10.2.0
+    - 10.2.1
+    - 10.2.2
+    - 10.3.1
+    - 10.3.2
+    - 10.4.0
+    - 10.5.0
+    - 10.5.1
+    - 10.6.0
+    - 10.7.0
+    - 10.8.0
+    - 10.8.1
+    - 10.9.0
+    - 10.10.0
+    - 10.10.1
+    - 17.0.3
+    compatible:
+    - 17.0.3
+    recommended: 17.0.3
+    deprecated: []
+  dependencies:
+  - name: com.unity.modules.video
+    version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  - name: com.unity.render-pipelines.core
+    version: 17.0.3
+  - name: com.unity.shadergraph
+    version: 17.0.3
+  - name: com.unity.visualeffectgraph
+    version: 17.0.3
+  - name: com.unity.render-pipelines.high-definition-config
+    version: 17.0.3
+  resolvedDependencies:
+  - name: com.unity.modules.video
+    version: 1.0.0
+  - name: com.unity.modules.audio
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.unitywebrequest
+    version: 1.0.0
+  - name: com.unity.modules.animation
+    version: 1.0.0
+  - name: com.unity.modules.imageconversion
+    version: 1.0.0
+  - name: com.unity.render-pipelines.core
+    version: 17.0.3
+  - name: com.unity.burst
+    version: 1.8.18
+  - name: com.unity.mathematics
+    version: 1.3.2
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.ugui
+    version: 2.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.collections
+    version: 2.5.1
+  - name: com.unity.test-framework
+    version: 1.4.5
+  - name: com.unity.ext.nunit
+    version: 2.0.5
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
+  - name: com.unity.test-framework.performance
+    version: 3.0.3
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+  - name: com.unity.rendering.light-transport
+    version: 1.0.1
+  - name: com.unity.shadergraph
+    version: 17.0.3
+  - name: com.unity.searcher
+    version: 4.9.2
+  - name: com.unity.visualeffectgraph
+    version: 17.0.3
+  - name: com.unity.render-pipelines.high-definition-config
+    version: 17.0.3
+  keywords:
+  - graphics
+  - performance
+  - rendering
+  - render
+  - pipeline
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 17.0.3
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: b43ee00428129c2c7bf176f49388b5c5f8279fd7
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 17.0.3
+    minimumUnityVersion: 6000.0.0a1
 - packageId: com.unity.render-pipelines.universal@17.0.3
   testable: 0
   isDirectDependency: 1
@@ -946,6 +1274,209 @@ m_ResolvedPackages:
   assetStore:
     productId: 
   fingerprint: 39c80789bb8143337aed936c9422ddd10fa5cd42
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 17.0.3
+    minimumUnityVersion: 6000.0.0a1
+- packageId: com.unity.shadergraph@17.0.3
+  testable: 0
+  isDirectDependency: 1
+  version: 17.0.3
+  source: 2
+  resolvedPath: /Users/caitlinywright/Documents/CS_Projects/CS_Major_Game/Library/PackageCache/com.unity.shadergraph@911117698220
+  assetPath: Packages/com.unity.shadergraph
+  name: com.unity.shadergraph
+  displayName: Shader Graph
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: The Shader Graph package adds a visual Shader editing tool to Unity.
+    You can use this tool to create Shaders in a visual way instead of writing code.
+    Specific render pipelines can implement specific graph features. Currently, both
+    the High Definition Rendering Pipeline and the Universal Rendering Pipeline support
+    Shader Graph.
+  errors: []
+  versions:
+    all:
+    - 0.1.8
+    - 0.1.9
+    - 0.1.17
+    - 1.0.0-beta
+    - 1.1.1-preview
+    - 1.1.2-preview
+    - 1.1.3-preview
+    - 1.1.4-preview
+    - 1.1.5-preview
+    - 1.1.6-preview
+    - 1.1.8-preview
+    - 1.1.9-preview
+    - 2.0.1-preview
+    - 2.0.3-preview
+    - 2.0.4-preview
+    - 2.0.4-preview.1
+    - 2.0.5-preview
+    - 2.0.6-preview
+    - 2.0.7-preview
+    - 2.0.8-preview
+    - 3.0.0-preview
+    - 3.1.0-preview
+    - 3.3.0-preview
+    - 4.0.0-preview
+    - 4.0.1-preview
+    - 4.1.0-preview
+    - 4.2.0-preview
+    - 4.3.0-preview
+    - 4.6.0-preview
+    - 4.8.0-preview
+    - 4.9.0-preview
+    - 4.10.0-preview
+    - 5.0.0-preview
+    - 5.1.0
+    - 5.2.0
+    - 5.2.1
+    - 5.2.2
+    - 5.2.3
+    - 5.3.1
+    - 5.6.1
+    - 5.7.2
+    - 5.8.2
+    - 5.9.0
+    - 5.10.0
+    - 5.13.0
+    - 5.16.1
+    - 6.5.2
+    - 6.5.3
+    - 6.7.1
+    - 6.9.0
+    - 6.9.1
+    - 6.9.2
+    - 7.0.0
+    - 7.0.1
+    - 7.1.1
+    - 7.1.2
+    - 7.1.5
+    - 7.1.6
+    - 7.1.7
+    - 7.1.8
+    - 7.2.0
+    - 7.2.1
+    - 7.3.1
+    - 7.4.1
+    - 7.4.2
+    - 7.4.3
+    - 7.5.1
+    - 7.5.2
+    - 7.5.3
+    - 7.6.0
+    - 7.7.0
+    - 7.7.1
+    - 8.0.1
+    - 8.1.0
+    - 8.2.0
+    - 8.3.1
+    - 9.0.0-preview.14
+    - 9.0.0-preview.34
+    - 9.0.0-preview.55
+    - 9.0.0-preview.72
+    - 10.0.0-preview.27
+    - 10.1.0
+    - 10.2.0
+    - 10.2.1
+    - 10.2.2
+    - 10.3.1
+    - 10.3.2
+    - 10.4.0
+    - 10.5.0
+    - 10.5.1
+    - 10.6.0
+    - 10.7.0
+    - 10.8.0
+    - 10.8.1
+    - 10.9.0
+    - 10.10.0
+    - 10.10.1
+    - 17.0.3
+    compatible:
+    - 17.0.3
+    recommended: 17.0.3
+    deprecated: []
+  dependencies:
+  - name: com.unity.render-pipelines.core
+    version: 17.0.3
+  - name: com.unity.searcher
+    version: 4.9.2
+  resolvedDependencies:
+  - name: com.unity.render-pipelines.core
+    version: 17.0.3
+  - name: com.unity.burst
+    version: 1.8.18
+  - name: com.unity.mathematics
+    version: 1.3.2
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.ugui
+    version: 2.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.collections
+    version: 2.5.1
+  - name: com.unity.test-framework
+    version: 1.4.5
+  - name: com.unity.ext.nunit
+    version: 2.0.5
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
+  - name: com.unity.test-framework.performance
+    version: 3.0.3
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+  - name: com.unity.rendering.light-transport
+    version: 1.0.1
+  - name: com.unity.searcher
+    version: 4.9.2
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 17.0.3
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 9111176982208cf007caa931c3cf2716ceec4632
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 17.0.3
@@ -4221,170 +4752,53 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 17.0.3
     minimumUnityVersion: 6000.0.0a1
-- packageId: com.unity.shadergraph@17.0.3
+- packageId: com.unity.searcher@4.9.2
   testable: 0
   isDirectDependency: 0
-  version: 17.0.3
-  source: 2
-  resolvedPath: /Users/caitlinywright/Documents/CS_Projects/CS_Major_Game/Library/PackageCache/com.unity.shadergraph@911117698220
-  assetPath: Packages/com.unity.shadergraph
-  name: com.unity.shadergraph
-  displayName: Shader Graph
+  version: 4.9.2
+  source: 1
+  resolvedPath: /Users/caitlinywright/Documents/CS_Projects/CS_Major_Game/Library/PackageCache/com.unity.searcher@90d011a70418
+  assetPath: Packages/com.unity.searcher
+  name: com.unity.searcher
+  displayName: Searcher
   author:
     name: 
     email: 
     url: 
   category: 
-  type: 
-  description: The Shader Graph package adds a visual Shader editing tool to Unity.
-    You can use this tool to create Shaders in a visual way instead of writing code.
-    Specific render pipelines can implement specific graph features. Currently, both
-    the High Definition Rendering Pipeline and the Universal Rendering Pipeline support
-    Shader Graph.
+  type: asset
+  description: General search window for use in the Editor. First target use is for
+    GraphView node search.
   errors: []
   versions:
     all:
-    - 0.1.8
-    - 0.1.9
-    - 0.1.17
-    - 1.0.0-beta
-    - 1.1.1-preview
-    - 1.1.2-preview
-    - 1.1.3-preview
-    - 1.1.4-preview
-    - 1.1.5-preview
-    - 1.1.6-preview
-    - 1.1.8-preview
-    - 1.1.9-preview
-    - 2.0.1-preview
-    - 2.0.3-preview
-    - 2.0.4-preview
-    - 2.0.4-preview.1
-    - 2.0.5-preview
-    - 2.0.6-preview
-    - 2.0.7-preview
-    - 2.0.8-preview
-    - 3.0.0-preview
-    - 3.1.0-preview
-    - 3.3.0-preview
     - 4.0.0-preview
-    - 4.0.1-preview
+    - 4.0.0
+    - 4.0.7-preview
+    - 4.0.7
+    - 4.0.8-preview
+    - 4.0.9
     - 4.1.0-preview
-    - 4.2.0-preview
-    - 4.3.0-preview
+    - 4.1.0
+    - 4.2.0
+    - 4.3.0
+    - 4.3.1
+    - 4.3.2
     - 4.6.0-preview
-    - 4.8.0-preview
-    - 4.9.0-preview
-    - 4.10.0-preview
-    - 5.0.0-preview
-    - 5.1.0
-    - 5.2.0
-    - 5.2.1
-    - 5.2.2
-    - 5.2.3
-    - 5.3.1
-    - 5.6.1
-    - 5.7.2
-    - 5.8.2
-    - 5.9.0
-    - 5.10.0
-    - 5.13.0
-    - 5.16.1
-    - 6.5.2
-    - 6.5.3
-    - 6.7.1
-    - 6.9.0
-    - 6.9.1
-    - 6.9.2
-    - 7.0.0
-    - 7.0.1
-    - 7.1.1
-    - 7.1.2
-    - 7.1.5
-    - 7.1.6
-    - 7.1.7
-    - 7.1.8
-    - 7.2.0
-    - 7.2.1
-    - 7.3.1
-    - 7.4.1
-    - 7.4.2
-    - 7.4.3
-    - 7.5.1
-    - 7.5.2
-    - 7.5.3
-    - 7.6.0
-    - 7.7.0
-    - 7.7.1
-    - 8.0.1
-    - 8.1.0
-    - 8.2.0
-    - 8.3.1
-    - 9.0.0-preview.14
-    - 9.0.0-preview.34
-    - 9.0.0-preview.55
-    - 9.0.0-preview.72
-    - 10.0.0-preview.27
-    - 10.1.0
-    - 10.2.0
-    - 10.2.1
-    - 10.2.2
-    - 10.3.1
-    - 10.3.2
-    - 10.4.0
-    - 10.5.0
-    - 10.5.1
-    - 10.6.0
-    - 10.7.0
-    - 10.8.0
-    - 10.8.1
-    - 10.9.0
-    - 10.10.0
-    - 10.10.1
-    - 17.0.3
+    - 4.7.0-preview
+    - 4.9.1
+    - 4.9.2
+    - 4.9.3
     compatible:
-    - 17.0.3
-    recommended: 17.0.3
+    - 4.9.2
+    - 4.9.3
+    recommended: 4.9.3
     deprecated: []
-  dependencies:
-  - name: com.unity.render-pipelines.core
-    version: 17.0.3
-  - name: com.unity.searcher
-    version: 4.9.2
-  resolvedDependencies:
-  - name: com.unity.render-pipelines.core
-    version: 17.0.3
-  - name: com.unity.burst
-    version: 1.8.18
-  - name: com.unity.mathematics
-    version: 1.3.2
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.ugui
-    version: 2.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.collections
-    version: 2.5.1
-  - name: com.unity.test-framework
-    version: 1.4.5
-  - name: com.unity.ext.nunit
-    version: 2.0.5
-  - name: com.unity.nuget.mono-cecil
-    version: 1.11.4
-  - name: com.unity.test-framework.performance
-    version: 3.0.3
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.terrain
-    version: 1.0.0
-  - name: com.unity.rendering.light-transport
-    version: 1.0.1
-  - name: com.unity.searcher
-    version: 4.9.2
-  keywords: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - search
+  - searcher
   registry:
     id: main
     name: 
@@ -4395,18 +4809,18 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 0
+    licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637831252240000000
   documentationUrl: 
-  hasRepository: 0
+  hasRepository: 1
   repository:
-    type: 
-    url: 
-    revision: 
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.searcher.git
+    revision: 7f9f75b04e97cf09c8ddc3968d059e74d6a2460a
     path: 
   unityLifecycle:
-    version: 17.0.3
+    version: 4.9.2
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -4419,11 +4833,11 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 9111176982208cf007caa931c3cf2716ceec4632
+  fingerprint: 90d011a70418fd5b0f4b8e86df39444d2af228dd
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 17.0.3
-    minimumUnityVersion: 6000.0.0a1
+    minimumPackageVersion: 4.9.2
+    minimumUnityVersion: 2019.1.0a1
 - packageId: com.unity.render-pipelines.universal-config@17.0.3
   testable: 0
   isDirectDependency: 0
@@ -4522,53 +4936,146 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 17.0.3
     minimumUnityVersion: 6000.0.0a1
-- packageId: com.unity.searcher@4.9.2
+- packageId: com.unity.visualeffectgraph@17.0.3
   testable: 0
   isDirectDependency: 0
-  version: 4.9.2
-  source: 1
-  resolvedPath: /Users/caitlinywright/Documents/CS_Projects/CS_Major_Game/Library/PackageCache/com.unity.searcher@90d011a70418
-  assetPath: Packages/com.unity.searcher
-  name: com.unity.searcher
-  displayName: Searcher
+  version: 17.0.3
+  source: 2
+  resolvedPath: /Users/caitlinywright/Documents/CS_Projects/CS_Major_Game/Library/PackageCache/com.unity.visualeffectgraph@947cc2b7941c
+  assetPath: Packages/com.unity.visualeffectgraph
+  name: com.unity.visualeffectgraph
+  displayName: Visual Effect Graph
   author:
     name: 
     email: 
     url: 
   category: 
-  type: asset
-  description: General search window for use in the Editor. First target use is for
-    GraphView node search.
+  type: 
+  description: The Visual Effect Graph is a node based visual effect editor. It allows
+    you to author next generation visual effects that Unity simulates directly on
+    the GPU. The Visual Effect Graph is production-ready for the High Definition
+    Render Pipeline and runs on all platforms supported by it. Full support for the
+    Universal Render Pipeline and compatible mobile devices is still in development.
   errors: []
   versions:
     all:
-    - 4.0.0-preview
-    - 4.0.0
-    - 4.0.7-preview
-    - 4.0.7
-    - 4.0.8-preview
-    - 4.0.9
-    - 4.1.0-preview
-    - 4.1.0
-    - 4.2.0
-    - 4.3.0
-    - 4.3.1
-    - 4.3.2
+    - 4.3.0-preview
     - 4.6.0-preview
-    - 4.7.0-preview
-    - 4.9.1
-    - 4.9.2
-    - 4.9.3
+    - 4.8.0-preview
+    - 4.9.0-preview
+    - 4.10.0-preview
+    - 5.2.0-preview
+    - 5.2.1-preview
+    - 5.2.3-preview
+    - 5.3.1-preview
+    - 5.6.1-preview
+    - 5.7.2-preview
+    - 5.8.2-preview
+    - 5.10.0-preview
+    - 5.13.0-preview
+    - 5.16.1-preview
+    - 6.5.2-preview
+    - 6.5.3-preview
+    - 6.7.1-preview
+    - 6.9.0-preview
+    - 6.9.1-preview
+    - 6.9.2-preview
+    - 7.0.0
+    - 7.0.1
+    - 7.1.1
+    - 7.1.2
+    - 7.1.5
+    - 7.1.6
+    - 7.1.7
+    - 7.1.8
+    - 7.2.0
+    - 7.2.1
+    - 7.3.1
+    - 7.4.1
+    - 7.4.2
+    - 7.4.3
+    - 7.5.1
+    - 7.5.2
+    - 7.5.3
+    - 7.6.0
+    - 7.7.0
+    - 7.7.1
+    - 8.0.1
+    - 8.1.0
+    - 8.2.0
+    - 8.3.1
+    - 9.0.0-preview.13
+    - 9.0.0-preview.33
+    - 9.0.0-preview.54
+    - 9.0.0-preview.71
+    - 10.0.0-preview.27
+    - 10.1.0
+    - 10.2.0
+    - 10.2.1
+    - 10.2.2
+    - 10.3.1
+    - 10.3.2
+    - 10.4.0
+    - 10.5.0
+    - 10.5.1
+    - 10.6.0
+    - 10.7.0
+    - 10.8.0
+    - 10.8.1
+    - 10.9.0
+    - 10.10.0
+    - 10.10.1
+    - 17.0.3
     compatible:
-    - 4.9.2
-    - 4.9.3
-    recommended: 4.9.3
+    - 17.0.3
+    recommended: 17.0.3
     deprecated: []
-  dependencies: []
-  resolvedDependencies: []
+  dependencies:
+  - name: com.unity.shadergraph
+    version: 17.0.3
+  - name: com.unity.render-pipelines.core
+    version: 17.0.3
+  resolvedDependencies:
+  - name: com.unity.shadergraph
+    version: 17.0.3
+  - name: com.unity.render-pipelines.core
+    version: 17.0.3
+  - name: com.unity.burst
+    version: 1.8.18
+  - name: com.unity.mathematics
+    version: 1.3.2
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.ugui
+    version: 2.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.collections
+    version: 2.5.1
+  - name: com.unity.test-framework
+    version: 1.4.5
+  - name: com.unity.ext.nunit
+    version: 2.0.5
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
+  - name: com.unity.test-framework.performance
+    version: 3.0.3
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+  - name: com.unity.rendering.light-transport
+    version: 1.0.1
+  - name: com.unity.searcher
+    version: 4.9.2
   keywords:
-  - search
-  - searcher
+  - vfx
+  - visualeffect
+  - graph
+  - effect
+  - particles
   registry:
     id: main
     name: 
@@ -4579,18 +5086,18 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   entitlements:
-    licensingModel: 1
+    licensingModel: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637831252240000000
+  datePublishedTicks: 0
   documentationUrl: 
-  hasRepository: 1
+  hasRepository: 0
   repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.searcher.git
-    revision: 7f9f75b04e97cf09c8ddc3968d059e74d6a2460a
+    type: 
+    url: 
+    revision: 
     path: 
   unityLifecycle:
-    version: 4.9.2
+    version: 17.0.3
     nextVersion: 
     recommendedVersion: 
     isDeprecated: 0
@@ -4603,11 +5110,154 @@ m_ResolvedPackages:
   upmReserved: 
   assetStore:
     productId: 
-  fingerprint: 90d011a70418fd5b0f4b8e86df39444d2af228dd
+  fingerprint: 947cc2b7941cb523268049da4bfd6ce861e21692
   editorCompatibility:
     compatibilityLevel: 0
-    minimumPackageVersion: 4.9.2
-    minimumUnityVersion: 2019.1.0a1
+    minimumPackageVersion: 17.0.3
+    minimumUnityVersion: 6000.0.0a1
+- packageId: com.unity.render-pipelines.high-definition-config@17.0.3
+  testable: 0
+  isDirectDependency: 0
+  version: 17.0.3
+  source: 2
+  resolvedPath: /Users/caitlinywright/Documents/CS_Projects/CS_Major_Game/Library/PackageCache/com.unity.render-pipelines.high-definition-config@d45858853e61
+  assetPath: Packages/com.unity.render-pipelines.high-definition-config
+  name: com.unity.render-pipelines.high-definition-config
+  displayName: High Definition RP Config
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Configuration files for the High Definition Render Pipeline.
+  errors: []
+  versions:
+    all:
+    - 7.0.0
+    - 7.0.1
+    - 7.1.1
+    - 7.1.2
+    - 7.1.5
+    - 7.1.6
+    - 7.1.7
+    - 7.1.8
+    - 7.2.0
+    - 7.2.1
+    - 7.3.1
+    - 7.4.1
+    - 7.4.2
+    - 7.4.3
+    - 7.5.1
+    - 7.5.2
+    - 7.5.3
+    - 7.6.0
+    - 7.7.0
+    - 7.7.1
+    - 8.0.1
+    - 8.1.0
+    - 8.2.0
+    - 8.3.1
+    - 9.0.0-preview.15
+    - 9.0.0-preview.35
+    - 9.0.0-preview.57
+    - 9.0.0-preview.74
+    - 10.0.0-preview.27
+    - 10.1.0
+    - 10.2.0
+    - 10.2.1
+    - 10.2.2
+    - 10.3.1
+    - 10.3.2
+    - 10.4.0
+    - 10.5.0
+    - 10.5.1
+    - 10.6.0
+    - 10.7.0
+    - 10.8.0
+    - 10.8.1
+    - 10.9.0
+    - 10.10.0
+    - 10.10.1
+    - 17.0.3
+    compatible:
+    - 17.0.3
+    recommended: 17.0.3
+    deprecated: []
+  dependencies:
+  - name: com.unity.render-pipelines.core
+    version: 17.0.3
+  resolvedDependencies:
+  - name: com.unity.render-pipelines.core
+    version: 17.0.3
+  - name: com.unity.burst
+    version: 1.8.18
+  - name: com.unity.mathematics
+    version: 1.3.2
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.ugui
+    version: 2.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.collections
+    version: 2.5.1
+  - name: com.unity.test-framework
+    version: 1.4.5
+  - name: com.unity.ext.nunit
+    version: 2.0.5
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
+  - name: com.unity.test-framework.performance
+    version: 3.0.3
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+  - name: com.unity.rendering.light-transport
+    version: 1.0.1
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 0
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 17.0.3
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: d45858853e614916d0e96df55a30b8c69d642992
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 17.0.3
+    minimumUnityVersion: 6000.0.0a1
 - packageId: com.unity.burst@1.8.18
   testable: 0
   isDirectDependency: 0
