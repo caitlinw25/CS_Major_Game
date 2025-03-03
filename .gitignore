@@ -1,71 +1,61 @@
-# Unity files to ignore
+# Unity-specific files
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
 [Ll]ogs/
+[Mm]emoryCaptures/
 UserSettings/
-Packages/
-ProjectSettings/
-MemoryCaptures/
-.vs/
-.idea/
-.vscode/
-*.csproj
-*.sln
-*.userprefs
-*.pidb
-*.suo
-*.unityproj
-*.crash
-*.dmp
-*.lfs
-[Ll]ibrary/
-[Tt]emp/
-[Oo]bj/
-[Bb]uild/
-[Bb]uilds/
-[Ll]ogs/
-UserSettings/
-Packages/
-ProjectSettings/
-MemoryCaptures/
 
-# Ignore .vs, .idea, and .vscode
-.vs/
-.idea/
-.vscode/
+# Ignore compiled binaries
+*.exe
+*.apk
+*.aab
+*.unitypackage
+*.app
+*.bat
+*.pdb
+*.ilk
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+*.suo
+*.user
+*.tmp
+*.log
+*.~*
+*.swp
+
+# Ignore Unity-generated VS/JetBrains files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.vscode/
 
 # Ignore crash reports
+CrashReports/
 *.crash
-*.dmp
 
-# Ignore compiled files
-*.csproj
-*.sln
+# Ignore large files you don't want in Git
+*.mp4
+*.avi
+*.mov
+*.wav
+*.flac
+*.zip
+*.rar
+*.tar
+*.7z
+*.iso
+*.blend1
+*.fbx
+*.psd
+*.tga
 
-# Ignore user-specific Unity files
-*.userprefs
-*.pidb
-*.suo
-*.sln*
-*.unityproj
-
-# Ignore LFS files (optional)
-*.lfs# Ignore Unity specific files/folders
-[Ll]ibrary/
-[Tt]emp/
-[Tt]argets/
-.vscode/
-.idea/
-
-# Ignore build results
-Build/
-Builds/
-
-# Ignore user-specific files
-UserSettings/
-
-# Ignore hidden system files (macOS)
-.DS_Store
+# Ignore backups
+*.bak
+*.backup
+*.old
