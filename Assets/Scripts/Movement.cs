@@ -21,6 +21,20 @@ public class Movement : MonoBehaviour
     private float timeBetweenTaps = 0.2f; 
     private bool isSprinting = false;
 
+    
+    //bullet movement variables
+    public GameObject bullet;
+    public Transform firePoint;
+    
+    
+    //enemy movement variables
+    public static Movement instance;
+    
+    private void Awake()
+    {
+        instance = this;
+    } 
+
 
     void Start()
     {
@@ -91,6 +105,17 @@ public class Movement : MonoBehaviour
         velocity.y += gravity * 10f * Time.deltaTime; //making the gravity stronger
 
         controller.Move(velocity * Time.deltaTime);
+
+
+        //if I click, a bullet shoots out from the firePoint position
+        if(Input.GetMouseButtonDown(0))
+        {
+
+            //create a bullet when click
+            Instantiate(bullet, firePoint.position, firePoint.rotation);
+
+        }
+
 
 
     }
