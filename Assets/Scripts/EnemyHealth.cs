@@ -5,12 +5,6 @@ public class EnemyHealth : MonoBehaviour
 
     public int currentHealth;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void DamageDone(int damage)
     {
         currentHealth -= damage;

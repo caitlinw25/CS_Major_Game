@@ -37,6 +37,11 @@ public class Bullet : MonoBehaviour
 
         }
 
+        if(other.gameObject.tag == "Animal")
+        {
+            other.gameObject.GetComponent<animalMovement>().DamageDone(damage);
+        }
+
         //when in contact, bullet destory/disapears
         //Destroy(gameObject);
     }
