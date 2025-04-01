@@ -435,6 +435,7 @@
 "Assets/Quirky Series Ultimate/_Scripts/RotateOnScroll.cs"
 "Assets/Scripts/animalMovement.cs"
 "Assets/Scripts/Bullet.cs"
+"Assets/Scripts/DayNightCycle.cs"
 "Assets/Scripts/EnemiesKilled.cs"
 "Assets/Scripts/EnemyHealth.cs"
 "Assets/Scripts/EnemyMovement.cs"
