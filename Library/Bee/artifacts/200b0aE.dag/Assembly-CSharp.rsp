@@ -430,6 +430,7 @@
 -analyzer:"/Applications/Unity/Hub/Editor/6000.0.35f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/6000.0.35f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/6000.0.35f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
+"Assets/BTM_Assets/BTM_Items_Gems/Scripts/SimpleGemsAnim.cs"
 "Assets/Quirky Series Ultimate/_Scripts/QuirkySeriesDemo.cs"
 "Assets/Quirky Series Ultimate/_Scripts/RotateOnScroll.cs"
 "Assets/Scripts/animalMovement.cs"

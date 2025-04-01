@@ -18,6 +18,9 @@ public class animalMovement : MonoBehaviour
     public float gravity = -10;
     private Vector3 velocity;
 
+    //coin appears variables
+    public GameObject Coin;
+
     //health variables
     public int currentHealth;
 
@@ -27,7 +30,9 @@ public class animalMovement : MonoBehaviour
 
         if(currentHealth <= 0)
         {
+            Vector3 coinPosition = transform.position;
             Destroy(gameObject);
+            Instantiate(Coin, coinPosition, Quaternion.identity);
         }
     }
 
@@ -45,13 +50,13 @@ public class animalMovement : MonoBehaviour
     void Update()
     {
         timer -= Time.deltaTime;
-        transform.position = Vector3.MoveTowards(transform.position, endPosition, speed * Time.deltaTime); //makes the animal move to the end position  location
+        transform.position = Vector3.MoveTowards(transform.position, endPosition, speed * Time.deltaTime); //makes the animal move to the end position location
 
         //rotate the animal in the direction of which it's moving
         Vector3 direction = (endPosition - transform.position).normalized;
         if (direction != Vector3.zero)
         {
-            Quaternion targetRotation = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z)); // Keep Y rotation locked
+            Quaternion targetRotation = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z)); //keep Y rotation locked (it doesn't change up or down movement)
             transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * speed);
         }
 
@@ -61,8 +66,8 @@ public class animalMovement : MonoBehaviour
             PickNewDestination(); //find a new location for the animal to go to
         }
 
-        //making the animal have a downward y velocity with gravity
-        velocity.y = theRigidbody.linearVelocity.y + (gravity * Time.deltaTime);
+        //making the animal have a downward y velocity with gravity and the rigidbody
+        velocity.y += gravity * Time.deltaTime;
         theRigidbody.linearVelocity = velocity;
 
 
