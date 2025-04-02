@@ -9,14 +9,13 @@ public class DayNightCycle : MonoBehaviour
     public Material sunriseSkybox;
 
     //public Material blendedSkies;
-    public float dayDuration = 60f; //each day is one minute
+    public float dayDuration;
     private float dayCycle;
 
     //create a new material for when the skies are transitioning so we don't alter our original materials
     void Start()
     {
-        //blendedSkies = new Material(daySkybox);
-        //RenderSettings.skybox = blendedSkies;
+        
     }
 
 

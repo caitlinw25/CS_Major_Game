@@ -434,6 +434,7 @@
 "Assets/Quirky Series Ultimate/_Scripts/QuirkySeriesDemo.cs"
 "Assets/Quirky Series Ultimate/_Scripts/RotateOnScroll.cs"
 "Assets/Scripts/animalMovement.cs"
+"Assets/Scripts/AnimalSpawner.cs"
 "Assets/Scripts/Bullet.cs"
 "Assets/Scripts/DayNightCycle.cs"
 "Assets/Scripts/EnemiesKilled.cs"

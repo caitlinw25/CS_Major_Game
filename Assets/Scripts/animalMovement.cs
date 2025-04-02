@@ -37,8 +37,6 @@ public class animalMovement : MonoBehaviour
     }
 
 
-
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         startPosition = transform.position; //establish where they first are
@@ -54,6 +52,9 @@ public class animalMovement : MonoBehaviour
 
         //rotate the animal in the direction of which it's moving
         Vector3 direction = (endPosition - transform.position).normalized;
+        Vector3 velocity = direction * speed; //velocity of animal
+        theRigidbody.linearVelocity = new Vector3(velocity.x, theRigidbody.linearVelocity.y, velocity.z); //keeping the animal on the terrain (at the y velo)
+
         if (direction != Vector3.zero)
         {
             Quaternion targetRotation = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z)); //keep Y rotation locked (it doesn't change up or down movement)
@@ -65,10 +66,6 @@ public class animalMovement : MonoBehaviour
         {
             PickNewDestination(); //find a new location for the animal to go to
         }
-
-        //making the animal have a downward y velocity with gravity and the rigidbody
-        velocity.y += gravity * Time.deltaTime;
-        theRigidbody.linearVelocity = velocity;
 
 
     }
