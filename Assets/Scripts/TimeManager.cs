@@ -10,6 +10,13 @@ public class TimeManager : MonoBehaviour
     public Texture2D skyboxDay;
     public Texture2D skyboxSunset;
 
+    //lighting variables
+    public Light skyTransition;
+    public Gradient graddientNightToSunrise;
+    public Gradient graddientSunriseToDay;
+    public Gradient graddientDayToSunset;
+    public Gradient graddientSunsetToNight;
+
 
     //variables for time tracking
     private int minutes;
@@ -36,6 +43,7 @@ public class TimeManager : MonoBehaviour
     //every 60 min is a hour, then reset minutes, then every 24 hours is a day, reset hours
     private void OnMinutesChange(int value)
     {
+        skyTransition.transform.Rotate(Vector3.up, (1f / (1440f / 4f)) * 360f, Space.Self);
         if(value >= 60)
         {
             Hours++;
@@ -55,18 +63,23 @@ public class TimeManager : MonoBehaviour
         if(value == 6)
         {
             StartCoroutine(LerpSkybox(skyboxNight, skyboxSunrise, 15f)); //when it's at 6 hours, make it blend from night to sunrise
+            StartCoroutine(LerpLight(graddientNightToSunrise, 15f)); //add the gradient
+
         }
         else if(value == 8)
         {
             StartCoroutine(LerpSkybox(skyboxSunrise, skyboxDay, 15f)); //8 hours, sunrise to day
+            StartCoroutine(LerpLight(graddientSunriseToDay, 15f));
         }
         else if(value == 18)
         {
             StartCoroutine(LerpSkybox(skyboxDay, skyboxSunset, 15f)); //18 hours, day to sunset
+            StartCoroutine(LerpLight(graddientDayToSunset, 15f));
         }
         else if(value == 22)
         {
             StartCoroutine(LerpSkybox(skyboxSunset, skyboxNight, 15f)); //22 hours, sunset to night
+            StartCoroutine(LerpLight(graddientSunsetToNight, 15f));
         }
     }
 
@@ -84,5 +97,14 @@ public class TimeManager : MonoBehaviour
             yield return null;
         }
         RenderSettings.skybox.SetTexture("_Texture2", b);
+    }
+
+    private IEnumerator LerpLight(Gradient lightGradient, float time)
+    {
+        for (float i = 0; i < time; i+= Time.deltaTime)
+        {
+            skyTransition.color = lightGradient.Evaluate(i/time); //allows smooth transition from one to another light
+            yield return null;
+        }
     }
 }
