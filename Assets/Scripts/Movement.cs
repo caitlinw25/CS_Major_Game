@@ -6,13 +6,14 @@ public class Movement : MonoBehaviour
     //object variables
     public CharacterController controller;
 
+    //variables for gravity
+    public float gravity = -10;
+    private Vector3 velocity;
 
     //movement variables 
     public float speed = 70f;
     public float fastSpeed = 80f;
-    public float gravity = -20000f; //need it to pull down wayyy stronger
     public float jumpHeight = 100f;
-    Vector3 velocity;
     bool isGrounded;
 
 
@@ -101,9 +102,7 @@ public class Movement : MonoBehaviour
         }
 
         //applying gravity
-
-        velocity.y += gravity * 10f * Time.deltaTime; //making the gravity stronger
-
+        velocity.y += gravity * 10f * Time.deltaTime; 
         controller.Move(velocity * Time.deltaTime);
 
 

@@ -27,6 +27,15 @@ public class TimeManager : MonoBehaviour
     public int Days { get {return days; } set {days = value;} }
     private float tempSec;
 
+    //fixing issue of the blend not starting off at 0
+    void Start()
+{
+    if (RenderSettings.skybox.HasProperty("_Blend"))
+    {
+        RenderSettings.skybox.SetFloat("_Blend", 0);
+    }
+}
+
     
     // Update is called once per frame
     void Update()
