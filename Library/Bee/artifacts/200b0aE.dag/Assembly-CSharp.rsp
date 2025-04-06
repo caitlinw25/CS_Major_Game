@@ -449,6 +449,7 @@
 "Assets/Scripts/MouseLooks.cs"
 "Assets/Scripts/Movement.cs"
 "Assets/Scripts/TimeManager.cs"
+"Assets/Scripts/TreeSpawner.cs"
 "Assets/TooManyCrosshairs/Cursors/_Demo/Scripts/CursorChanger.cs"
 "Assets/TooManyCrosshairs/Cursors/_Demo/Scripts/CursorTrigger.cs"
 "Assets/TooManyCrosshairs/Cursors/_Demo/Scripts/HideMouseCursor.cs"
