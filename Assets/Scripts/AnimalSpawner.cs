@@ -30,6 +30,6 @@ public class AnimalSpawner : MonoBehaviour
         float z = Random.Range(-spawnArea.z / 2, spawnArea.z / 2);
         float y = Terrain.activeTerrain.SampleHeight(new Vector3(x, 0, z)); //make sure y loc matches
 
-        return new Vector3(x, y, z);
+        return new Vector3(x, y + 10, z);
     }
 }

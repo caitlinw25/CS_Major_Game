@@ -4,6 +4,7 @@ public class EnemyHealth : MonoBehaviour
 {
 
     public int currentHealth;
+    public GameObject bone;
 
     public void DamageDone(int damage)
     {
