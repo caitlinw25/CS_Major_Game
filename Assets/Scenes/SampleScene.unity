@@ -1074,11 +1074,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0711684f0f68248e8b354ad4b7408ec2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: {fileID: 8785478145053809361, guid: 4275f9d55995f45d1adf369089973886, type: 3}
-  player: {fileID: 0}
-  minSpawnLimit: 10
-  maxSpawnLimit: 50
-  distance: 0
+  enemy: {fileID: 346533769799864172, guid: 4275f9d55995f45d1adf369089973886, type: 3}
+  numEnemiesSpawn: 100
+  spawnArea: {x: 6000, y: 1000, z: 6000}
 --- !u!4 &706817316
 Transform:
   m_ObjectHideFlags: 0

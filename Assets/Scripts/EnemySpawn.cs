@@ -3,42 +3,32 @@ using UnityEngine;
 public class EnemySpawn : MonoBehaviour
 {
     public GameObject enemy;
-    
-    //so we can track players location and spawn around this location
-    public Transform player; 
-
-    //variables for spawning
-    public float minSpawnLimit = 10f; 
-    public float maxSpawnLimit = 50f;
-    public float distance;
-    private Vector3 locationDistance;
-    private Vector3 randomBlahBlah;
+    public int numEnemiesSpawn;
+    public Vector3 spawnArea = new Vector3(6000f, 1000f, 6000f);
 
 
-    void Update()
+    void Start()
     {
+        SpawnEnemies();
+    }
 
-        if(Input.GetKeyDown(KeyCode.E))
+    void SpawnEnemies()
+    {
+        for(int i = 0; i < numEnemiesSpawn; i++ )
         {
-            
-            //generates a random distance from the players position using min and max values
-            distance = Random.Range(minSpawnLimit, maxSpawnLimit);
-
-            //generating a random angle to use for x and y coordinates
-            float angle = Random.Range(0f, 360f) * Mathf.Deg2Rad;
-            float displaceX = Mathf.Cos(angle) * distance;
-            float displaceZ = Mathf.Sin(angle) * distance;
-
-            //using random coordinates to create a vector for how far it would be placed
-            Vector3 locationDistance = new Vector3(displaceX, 0, displaceZ);
-            
-            //final coordinates of the enemy
-            Vector3 enemyRandoLoc = player.position + locationDistance;
-
-            //creates the enemy with those coordinates, makes sure it doesn't rotate
-            Instantiate(enemy, enemyRandoLoc, Quaternion.identity); 
+            Vector3 randomPosition = getRandomSpawnPos();
+            Instantiate(enemy, randomPosition, Quaternion.identity); //spawn it at random position
         }
     }
 
+    Vector3 getRandomSpawnPos()
+    {
+        //get random y and x loc
+        float x = Random.Range(-spawnArea.x / 2, spawnArea.x / 2);
+        float z = Random.Range(-spawnArea.z / 2, spawnArea.z / 2);
+        float y = Terrain.activeTerrain.SampleHeight(new Vector3(x, 0, z)); //make sure y loc matches
+
+        return new Vector3(x, y, z);
+    }
 
 }
