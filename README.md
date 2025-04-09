@@ -19,6 +19,11 @@ The things you need before installing the software.
   * https://assetstore.unity.com/packages/3d/props/weapons/weapons-free-low-poly-3d-models-pack-260492
   * https://assetstore.unity.com/packages/2d/textures-materials/sky/fantasy-skybox-free-18353
   * https://assetstore.unity.com/packages/2d/textures-materials/nature/grass-flowers-pack-free-138810
+  * https://assetstore.unity.com/packages/3d/vegetation/trees/low-poly-trees-free-nature-pack-300824
+  * https://assetstore.unity.com/packages/3d/characters/humanoids/fantasy/mini-simple-characters-skeleton-free-demo-262897
+  * https://assetstore.unity.com/packages/3d/characters/humanoids/lowpoly-survival-character-rio-273074
+  * https://assetstore.unity.com/packages/3d/characters/humanoids/lowpoly-survival-character-rio-273074
+  * https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727
 
 ## Commands
 
