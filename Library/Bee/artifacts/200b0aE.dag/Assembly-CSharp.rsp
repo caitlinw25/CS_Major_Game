@@ -445,6 +445,7 @@
 "Assets/Scripts/EnemyHealth.cs"
 "Assets/Scripts/EnemyMovement.cs"
 "Assets/Scripts/EnemySpawn.cs"
+"Assets/Scripts/HandHolderManage.cs"
 "Assets/Scripts/HUD.cs"
 "Assets/Scripts/killed.cs"
 "Assets/Scripts/MouseLooks.cs"

@@ -109,20 +109,6 @@ public class Movement : MonoBehaviour
         //if I click, a bullet shoots out from the firePoint position
        if(Input.GetMouseButtonDown(0))
         {
-/*
-            RaycastHit hit;
-            if(Physics.Raycast(Camera.main.transform.position, Camera.main.transform.forward, out hit, 200f))
-            {
-                if(Vector3.Distance(Camera.main.transform.position, hit.point) > 1f)
-                {
-                    firePoint.LookAt(hit.point);
-                }
-                else 
-                {
-                    firePoint.LookAt(Camera.main.transform.position + (Camera.main.transform.forward * 40f));
-                }
-            }
-         */   
             //create a bullet when click
             Instantiate(bullet, firePoint.position, firePoint.rotation);
 
