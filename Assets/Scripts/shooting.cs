@@ -11,10 +11,18 @@ public class shooting : MonoBehaviour
         // Automatically find the child called "FirePoint"
         firePoint = transform.Find("Bullet Spawn");
 
+
+        /*
         if (firePoint == null) //will show if there is no spawn point assigned to the prefab
         {
             Debug.LogError("Bullet spawn point empty object not found");
         }
+        */
+
+        Quaternion tempQuaternion = new Quaternion();
+        tempQuaternion.Set(0, -180, 0, 1);
+        gameObject.transform.localRotation = tempQuaternion;
+
     }
 
     // Update is called once per frame

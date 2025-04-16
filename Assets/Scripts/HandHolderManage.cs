@@ -40,7 +40,7 @@ public class HandHolderManage : MonoBehaviour
         //spawn the next item in the prefab at that loc
         currentItemHeld = Instantiate(objectsHeld[index], handHolder);
         currentItemHeld.transform.localPosition = Vector3.zero;
-        currentItemHeld.transform.localRotation = Quaternion.identity;
+
         currentIndex = index;
         }
 
