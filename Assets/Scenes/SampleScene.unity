@@ -3764,6 +3764,7 @@ MonoBehaviour:
   - {fileID: 8300490532334936338, guid: 311b9ab287d5c43ddb0b274c43189d0e, type: 3}
   - {fileID: 4229692777467601393, guid: 03fd50c6a8eb045db9cb021015ae0399, type: 3}
   - {fileID: 3364572023009783420, guid: 861339b019621465e8cdb6ee6828d074, type: 3}
+  - {fileID: 0}
   currentItemHeld: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

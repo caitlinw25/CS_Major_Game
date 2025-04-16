@@ -20,6 +20,15 @@ public class HandHolderManage : MonoBehaviour
 
     void EquipItem(int index)
     {
+
+        //DEBUG: problems with clicking same num twice, game crashes
+        if (currentIndex == index)
+        {
+            Debug.Log("Item is already there at index: " + index + ", skipping.");
+            return;
+        }
+
+
         if (index < 0 || index >= objectsHeld.Length) return; //if index is less than 0, then get the length of the prefab items
         
         //if the player is holding something, then destory it
