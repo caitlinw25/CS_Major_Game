@@ -9,6 +9,7 @@ public class KnifeHit : MonoBehaviour
     private Quaternion originalRotation;
     private bool isSwinging = false;
     private float swingProgress = 0f;
+    public int damage;
 
     void Start()
     {
@@ -37,4 +38,23 @@ public class KnifeHit : MonoBehaviour
             }
         }
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+
+        if(other.gameObject.tag == "Enemy")
+        {
+            other.gameObject.GetComponent<EnemyHealth>().DamageDone(damage);
+            //if the object the bullet collides with something called "enemy", then grab the gameObject from the EnemyHealth script and
+            //call the damage function that decreases current enemy health
+
+        }
+
+        if(other.gameObject.tag == "Animal")
+        {
+            other.gameObject.GetComponent<animalMovement>().DamageDone(damage);
+        }
+        
+    }
+
 }
