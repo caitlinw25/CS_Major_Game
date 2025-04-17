@@ -21,6 +21,10 @@ public class PlayerHealth : MonoBehaviour
     public void takeDamage(int damage)
     {
         currentHealth -= damage;
+        //DEBUG: player won't die, check if health ever reaches 0
+        //update: player did die, but the dead screen did not pop up
+        Debug.Log("Players health: " + currentHealth);
+
         updateHealthUI(); //continuesly show/update the health on screen
 
         if (currentHealth <= 0)
@@ -42,7 +46,8 @@ public class PlayerHealth : MonoBehaviour
     void Die()
     {
         Debug.Log("Player Died!");
-        deathScreen.SetActive(true); 
+        deathScreen.SetActive(true);
+        Time.timeScale = 0f;
     }
 
 }
