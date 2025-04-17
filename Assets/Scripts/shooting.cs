@@ -4,11 +4,11 @@ public class shooting : MonoBehaviour
 {
     //bullet movement variables
     public GameObject bullet;
-    public Transform firePoint;
+    private Transform firePoint;
 
     void Start()
     {
-        // Automatically find the child called "FirePoint"
+        //find bullet spawn object under gun and then use that as loc for bullet spawn
         firePoint = transform.Find("Bullet Spawn");
 
 
@@ -19,9 +19,6 @@ public class shooting : MonoBehaviour
         }
         */
 
-        Quaternion tempQuaternion = new Quaternion();
-        tempQuaternion.Set(0, -180, 0, 1);
-        gameObject.transform.localRotation = tempQuaternion;
 
     }
 

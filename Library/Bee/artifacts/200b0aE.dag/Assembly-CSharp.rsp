@@ -452,6 +452,7 @@
 "Assets/Scripts/KnifeHit.cs"
 "Assets/Scripts/MouseLooks.cs"
 "Assets/Scripts/Movement.cs"
+"Assets/Scripts/PlayerHealth.cs"
 "Assets/Scripts/POVController.cs"
 "Assets/Scripts/shooting.cs"
 "Assets/Scripts/TimeManager.cs"

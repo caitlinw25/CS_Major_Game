@@ -5,7 +5,7 @@ public class KnifeHit : MonoBehaviour
 {
     //variables
     public float swingAngle = 60f; //rotation of swing
-    public float swingSpeed = 2f; 
+    public float swingSpeed = 5f; 
     private Quaternion originalRotation;
     private bool isSwinging = false;
     private float swingProgress = 0f;
