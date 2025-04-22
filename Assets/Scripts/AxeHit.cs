@@ -10,9 +10,6 @@ public class AxeHit : MonoBehaviour
     private float swingProgress = 0f;
     public int damage;
 
-    //variables for the raycast/hitting in the middle of screen
-    public Camera characterCamera;
-
     
     void Start()
     {
@@ -34,33 +31,34 @@ public class AxeHit : MonoBehaviour
             float currentAngle = swingAmount * swingAngle; //ensure the proper angle and swing amount
             transform.localRotation = originalRotation * Quaternion.Euler(-currentAngle, 0f, 0f); //YOUTUBE
 
-
             if (swingProgress >= 1f) //if one swing is done, then reput the axe into resting mode
             {
                 isSwinging = false;
                 transform.localRotation = originalRotation;
-
-                RaycastHit hit; //establish a raycast
-                if (Physics.Raycast(characterCamera.transform.position, characterCamera.transform.forward, out hit))
-                {
-                    //DEBUG: show what the axe has hit, the animals aren't dying. Check to see if they are being hit or not
-                    Debug.Log("What was hit: " + hit.collider.name);
-
-                    if (hit.collider.CompareTag("Enemy"))
-                    {
-                        hit.collider.GetComponent<EnemyHealth>().DamageDone(damage);
-                    }
-                    else if (hit.collider.CompareTag("Animal"))
-                    {
-                        hit.collider.GetComponent<animalMovement>().DamageDone(damage);
-                    }
-                    else if (hit.collider.CompareTag("Tree"))
-                    {
-                        hit.collider.GetComponent<TreeHealth>().DamageDone(damage);
-                    }
-                }
             }
         }
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+
+        if(other.gameObject.tag == "Enemy")
+        {
+            other.gameObject.GetComponent<EnemyHealth>().DamageDone(damage);
+            //if the object the bullet collides with something called "enemy", then grab the gameObject from the EnemyHealth script and
+            //call the damage function that decreases current enemy health
+        }
+
+        if(other.gameObject.tag == "Animal")
+        {
+            other.gameObject.GetComponent<animalMovement>().DamageDone(damage);
+        }
+
+        if(other.gameObject.tag == "Tree")
+        {
+            other.gameObject.GetComponent<TreeHealth>().DamageDone(damage);
+        }
+
     }
 
 }

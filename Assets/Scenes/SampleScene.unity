@@ -1430,6 +1430,7 @@ MonoBehaviour:
   enemy: {fileID: 346533769799864172, guid: 4275f9d55995f45d1adf369089973886, type: 3}
   numEnemiesSpawn: 100
   spawnArea: {x: 6000, y: 1000, z: 6000}
+  timeManager: {fileID: 1040487179}
 --- !u!4 &706817316
 Transform:
   m_ObjectHideFlags: 0
@@ -2319,6 +2320,8 @@ MonoBehaviour:
     m_ColorSpace: -1
     m_NumColorKeys: 2
     m_NumAlphaKeys: 2
+  isNight: 1
+  isDay: 0
 --- !u!4 &1040487180
 Transform:
   m_ObjectHideFlags: 0
@@ -4528,8 +4531,8 @@ SceneRoots:
   - {fileID: 685095791}
   - {fileID: 2089781776}
   - {fileID: 2023406210}
-  - {fileID: 706817316}
   - {fileID: 1187630339}
+  - {fileID: 706817316}
   - {fileID: 763397971}
   - {fileID: 1040487180}
   - {fileID: 1557621843}

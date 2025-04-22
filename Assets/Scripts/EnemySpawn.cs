@@ -5,6 +5,7 @@ public class EnemySpawn : MonoBehaviour
     public GameObject enemy;
     public int numEnemiesSpawn;
     public Vector3 spawnArea = new Vector3(6000f, 1000f, 6000f);
+    public TimeManager timeManager; //so we can reference the time manager script
 
 
     void Start()
@@ -12,12 +13,24 @@ public class EnemySpawn : MonoBehaviour
         SpawnEnemies();
     }
 
+    private void Update()
+    {
+        //keep checking if it's day
+        if(timeManager.isDay) //if it's day
+        {
+            DestroyAllEnemies();
+        }
+    }
+
     void SpawnEnemies()
     {
-        for(int i = 0; i < numEnemiesSpawn; i++ )
+        if(timeManager.isNight) //if it's night, spawn the enemies randomly
         {
-            Vector3 randomPosition = getRandomSpawnPos();
-            Instantiate(enemy, randomPosition, Quaternion.identity); //spawn it at random position
+            for(int i = 0; i < numEnemiesSpawn; i++ )
+            {
+                Vector3 randomPosition = getRandomSpawnPos();
+                Instantiate(enemy, randomPosition, Quaternion.identity); //spawn it at random position
+            }
         }
     }
 
@@ -30,5 +43,17 @@ public class EnemySpawn : MonoBehaviour
 
         return new Vector3(x, y, z);
     }
+
+    void DestroyAllEnemies()
+    {
+        GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy"); //create a list of all items in scene with an enemy tag
+
+        //take each of these enemies in the array and destory them
+        foreach (GameObject enemy in enemies)
+        {
+            Destroy(enemy);
+        }
+    }
+
 
 }

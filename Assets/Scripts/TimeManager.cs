@@ -27,6 +27,10 @@ public class TimeManager : MonoBehaviour
     public int Days { get {return days; } set {days = value;} }
     private float tempSec;
 
+    //enemy spawning time specific variables (if it's day or night)
+    public bool isNight = true; 
+    public bool isDay = false; 
+
     //fixing issue of the blend not starting off at 0
     void Start()
 {
@@ -79,11 +83,15 @@ public class TimeManager : MonoBehaviour
         {
             StartCoroutine(LerpSkybox(skyboxSunrise, skyboxDay, 15f)); //8 hours, sunrise to day
             StartCoroutine(LerpLight(graddientSunriseToDay, 15f));
+            isNight = false;
+            isDay = true;
         }
         else if(value == 18)
         {
             StartCoroutine(LerpSkybox(skyboxDay, skyboxSunset, 15f)); //18 hours, day to sunset
             StartCoroutine(LerpLight(graddientDayToSunset, 15f));
+            isDay = false;
+            isNight = true;
         }
         else if(value == 22)
         {
