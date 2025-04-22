@@ -34,7 +34,7 @@ public class Movement : MonoBehaviour
 
     void Start()
     {
-        Cursor.visible = false;
+        
     }
 
 

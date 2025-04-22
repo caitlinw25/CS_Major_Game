@@ -12,6 +12,10 @@ public class StartGame : MonoBehaviour
     {
         Time.timeScale = 0f; //begin the game with a frozen screen so the player can't move around before pressing start button
         startScreen.SetActive(true); //show the start button
+
+        //unlock the cursor so that it is able to click the button
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 
     public void beginGame()
@@ -21,5 +25,9 @@ public class StartGame : MonoBehaviour
 
         startScreen.SetActive(false); //hide the start screen
         Time.timeScale = 1f; //unfreeze game
+
+        //lock the cursor and hide it
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 }
