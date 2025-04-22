@@ -456,6 +456,7 @@
 "Assets/Scripts/PlayerHealth.cs"
 "Assets/Scripts/POVController.cs"
 "Assets/Scripts/shooting.cs"
+"Assets/Scripts/StartGame.cs"
 "Assets/Scripts/TimeManager.cs"
 "Assets/Scripts/TreeHealth.cs"
 "Assets/Scripts/TreeSpawner.cs"
