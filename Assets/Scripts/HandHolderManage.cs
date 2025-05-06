@@ -16,6 +16,7 @@ public class HandHolderManage : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Alpha2)) EquipItem(1); //if 2 is clicked, second object in inventory
         if (Input.GetKeyDown(KeyCode.Alpha3)) EquipItem(2); //goes on
         if (Input.GetKeyDown(KeyCode.Alpha4)) EquipItem(3);
+        if (Input.GetKeyDown(KeyCode.Alpha5)) EquipItem(4);
     }
 
     void EquipItem(int index)

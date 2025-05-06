@@ -1890,63 +1890,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   woodText: {fileID: 675820821}
---- !u!1001 &827387499
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2318029022985585066, guid: 694b2445635fa425f8e58a9c576ac34e, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2318029022985585066, guid: 694b2445635fa425f8e58a9c576ac34e, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2318029022985585066, guid: 694b2445635fa425f8e58a9c576ac34e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2318029022985585066, guid: 694b2445635fa425f8e58a9c576ac34e, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 2318029022985585066, guid: 694b2445635fa425f8e58a9c576ac34e, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2318029022985585066, guid: 694b2445635fa425f8e58a9c576ac34e, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2318029022985585066, guid: 694b2445635fa425f8e58a9c576ac34e, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 2318029022985585066, guid: 694b2445635fa425f8e58a9c576ac34e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2318029022985585066, guid: 694b2445635fa425f8e58a9c576ac34e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2318029022985585066, guid: 694b2445635fa425f8e58a9c576ac34e, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 5371940072899372497, guid: 694b2445635fa425f8e58a9c576ac34e, type: 3}
-      propertyPath: m_Name
-      value: WoodHold
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 694b2445635fa425f8e58a9c576ac34e, type: 3}
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -3828,75 +3771,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1687333198
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2736654484775597254, guid: 861339b019621465e8cdb6ee6828d074, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 2736654484775597254, guid: 861339b019621465e8cdb6ee6828d074, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 2736654484775597254, guid: 861339b019621465e8cdb6ee6828d074, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 2736654484775597254, guid: 861339b019621465e8cdb6ee6828d074, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2736654484775597254, guid: 861339b019621465e8cdb6ee6828d074, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2736654484775597254, guid: 861339b019621465e8cdb6ee6828d074, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2736654484775597254, guid: 861339b019621465e8cdb6ee6828d074, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 2736654484775597254, guid: 861339b019621465e8cdb6ee6828d074, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2736654484775597254, guid: 861339b019621465e8cdb6ee6828d074, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2736654484775597254, guid: 861339b019621465e8cdb6ee6828d074, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 2736654484775597254, guid: 861339b019621465e8cdb6ee6828d074, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2736654484775597254, guid: 861339b019621465e8cdb6ee6828d074, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2736654484775597254, guid: 861339b019621465e8cdb6ee6828d074, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3364572023009783420, guid: 861339b019621465e8cdb6ee6828d074, type: 3}
-      propertyPath: m_Name
-      value: CoinHold
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 861339b019621465e8cdb6ee6828d074, type: 3}
 --- !u!1001 &1715240421
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4948,7 +4822,7 @@ MonoBehaviour:
   - {fileID: 8300490532334936338, guid: 311b9ab287d5c43ddb0b274c43189d0e, type: 3}
   - {fileID: 4229692777467601393, guid: 03fd50c6a8eb045db9cb021015ae0399, type: 3}
   - {fileID: 3364572023009783420, guid: 861339b019621465e8cdb6ee6828d074, type: 3}
-  - {fileID: 0}
+  - {fileID: 4891264807613311070, guid: c4dbd2ed1f6114b00842a4d451d26570, type: 3}
   currentItemHeld: {fileID: 0}
 --- !u!114 &2089781795
 MonoBehaviour:
@@ -4984,5 +4858,3 @@ SceneRoots:
   - {fileID: 827036071}
   - {fileID: 1199531849}
   - {fileID: 1131305995}
-  - {fileID: 827387499}
-  - {fileID: 1687333198}
