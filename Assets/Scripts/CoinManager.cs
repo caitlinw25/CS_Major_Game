@@ -28,7 +28,7 @@ public class CoinManager : MonoBehaviour
             CoinObjects.SetActive(true); //if the coincount is 1 AND hte coin text and photo is not nothing, then you can show it on the inventory/screen
         }
 
-        FindObjectOfType<CoinUI>().UpdateCoinUI(); //update the UI script on the screen
+        FindFirstObjectByType<CoinUI>().UpdateCoinUI(); //update the UI script on the screen
     }
 
     
