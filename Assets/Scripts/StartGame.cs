@@ -18,10 +18,18 @@ public class StartGame : MonoBehaviour
         Cursor.visible = true;
     }
 
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Alpha2)) //if 2 is pressed
+        {
+            beginGame();
+        }
+    }
+
     public void beginGame()
     {
         //DEBUG: the button isn't doing anything, check if it's clicked or not
-        Debug.Log("CLICKED");
+        //Debug.Log("CLICKED"); - doesn't work with the Web game
 
         startScreen.SetActive(false); //hide the start screen
         Time.timeScale = 1f; //unfreeze game

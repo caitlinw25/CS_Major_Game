@@ -1,4 +1,4 @@
-{"msg":"init","dagFile":"Library/Bee/Player066ae94b.dag","targets":["Player"]}
+{"msg":"init","dagFile":"Library/Bee/Player653f4704.dag","targets":["Player"]}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"Player","enqueuedNodeIndex":753}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"UnityLinker /Users/caitlinywright/Documents/CS_Projects/CS_Major_Game/Library/Bee/artifacts/unitylinker_ber2.traceevents","enqueuedNodeIndex":3,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":753}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles /Users/caitlinywright/Documents/CS_Projects/CS_Major_Game/Library/Bee/artifacts/WebGL/il2cppOutput/build/GameAssembly.a","enqueuedNodeIndex":725,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":753}
@@ -536,77 +536,75 @@
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"C_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/5ibkfsj16xo8.o","enqueuedNodeIndex":723,"enqueueingNodeAnnotation":"Lib_WebGL_wasm Library/Bee/artifacts/WebGL/GameAssembly/release_WebGL_wasm/GameAssembly.a","enqueueingNodeIndex":724}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles /Users/caitlinywright/Documents/CS_Projects/CS_Major_Game/Library/Bee/artifacts/WebGL/il2cppOutput/build/Data/Metadata/global-metadata.dat","enqueuedNodeIndex":726,"enqueueingNodeAnnotation":"CopyFiles /Users/caitlinywright/Documents/CS_Projects/CS_Major_Game/Library/Bee/artifacts/WebGL/il2cppOutput/build/GameAssembly.a","enqueueingNodeIndex":725}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles /Users/caitlinywright/Documents/CS_Projects/CS_Major_Game/Library/Bee/artifacts/WebGL/il2cppOutput/build/Data/Resources/mscorlib.dll-resources.dat","enqueuedNodeIndex":727,"enqueueingNodeAnnotation":"CopyFiles /Users/caitlinywright/Documents/CS_Projects/CS_Major_Game/Library/Bee/artifacts/WebGL/il2cppOutput/build/GameAssembly.a","enqueueingNodeIndex":725}
-{"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Webbuild_game/Build/Webbuild_game.framework.js","enqueuedNodeIndex":731,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":753}
-{"msg":"enqueueNode","enqueuedNodeAnnotation":"Merging JavaScript Code Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js","enqueuedNodeIndex":730,"enqueueingNodeAnnotation":"CopyFiles Webbuild_game/Build/Webbuild_game.framework.js","enqueueingNodeIndex":731}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Webb_Git_Game/Build/Webb_Git_Game.framework.js","enqueuedNodeIndex":731,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":753}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"Merging JavaScript Code Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js","enqueuedNodeIndex":730,"enqueueingNodeAnnotation":"CopyFiles Webb_Git_Game/Build/Webb_Git_Game.framework.js","enqueueingNodeIndex":731}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"Link_WebGL_wasm Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js (+wasm)","enqueuedNodeIndex":728,"enqueueingNodeAnnotation":"Merging JavaScript Code Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js","enqueueingNodeIndex":730}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"WriteText Library/Bee/artifacts/csharpactions/build.framework.js_mumr.info","enqueuedNodeIndex":729,"enqueueingNodeAnnotation":"Merging JavaScript Code Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js","enqueueingNodeIndex":730}
-{"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Webbuild_game/Build/Webbuild_game.wasm","enqueuedNodeIndex":732,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":753}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Webb_Git_Game/Build/Webb_Git_Game.wasm","enqueuedNodeIndex":732,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":753}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Temp/EditorBuildOutput/UnityLinkerToEditorData.json","enqueuedNodeIndex":733,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":753}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Temp/EditorBuildOutput/MethodMap.tsv","enqueuedNodeIndex":734,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":753}
-{"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Webbuild_game/Build/Webbuild_game.data","enqueuedNodeIndex":737,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":753}
-{"msg":"enqueueNode","enqueuedNodeAnnotation":"Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data","enqueuedNodeIndex":736,"enqueueingNodeAnnotation":"CopyFiles Webbuild_game/Build/Webbuild_game.data","enqueueingNodeIndex":737}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Webb_Git_Game/Build/Webb_Git_Game.data","enqueuedNodeIndex":737,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":753}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data","enqueuedNodeIndex":736,"enqueueingNodeAnnotation":"CopyFiles Webb_Git_Game/Build/Webb_Git_Game.data","enqueueingNodeIndex":737}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"AddBootConfigGUID Library/Bee/artifacts/WebGL/boot.config","enqueuedNodeIndex":2,"enqueueingNodeAnnotation":"Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data","enqueueingNodeIndex":736}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"WriteText Library/Bee/artifacts/csharpactions/boot.config_7kyv.info","enqueuedNodeIndex":1,"enqueueingNodeAnnotation":"AddBootConfigGUID Library/Bee/artifacts/WebGL/boot.config","enqueueingNodeIndex":2}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"WriteText Library/Bee/artifacts/csharpactions/webgl.data_qnm2.info","enqueuedNodeIndex":735,"enqueueingNodeAnnotation":"Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data","enqueueingNodeIndex":736}
-{"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Webbuild_game/Build/Webbuild_game.loader.js","enqueuedNodeIndex":739,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":753}
-{"msg":"enqueueNode","enqueuedNodeAnnotation":"PreprocessJS Library/Bee/artifacts/WebGLWebbuild_game.loader.js","enqueuedNodeIndex":738,"enqueueingNodeAnnotation":"CopyFiles Webbuild_game/Build/Webbuild_game.loader.js","enqueueingNodeIndex":739}
-{"msg":"enqueueNode","enqueuedNodeAnnotation":"PreprocessJS Webbuild_game/index.html","enqueuedNodeIndex":740,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":753}
-{"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Webbuild_game/TemplateData/favicon.ico","enqueuedNodeIndex":741,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":753}
-{"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Webbuild_game/TemplateData/fullscreen-button.png","enqueuedNodeIndex":742,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":753}
-{"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Webbuild_game/TemplateData/MemoryProfiler.png","enqueuedNodeIndex":743,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":753}
-{"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Webbuild_game/TemplateData/progress-bar-empty-dark.png","enqueuedNodeIndex":744,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":753}
-{"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Webbuild_game/TemplateData/progress-bar-empty-light.png","enqueuedNodeIndex":745,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":753}
-{"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Webbuild_game/TemplateData/progress-bar-full-dark.png","enqueuedNodeIndex":746,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":753}
-{"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Webbuild_game/TemplateData/progress-bar-full-light.png","enqueuedNodeIndex":747,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":753}
-{"msg":"enqueueNode","enqueuedNodeAnnotation":"PreprocessJS Webbuild_game/TemplateData/style.css","enqueuedNodeIndex":748,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":753}
-{"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Webbuild_game/TemplateData/unity-logo-dark.png","enqueuedNodeIndex":749,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":753}
-{"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Webbuild_game/TemplateData/unity-logo-light.png","enqueuedNodeIndex":750,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":753}
-{"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Webbuild_game/TemplateData/unity-logo-title-footer.png","enqueuedNodeIndex":751,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":753}
-{"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Webbuild_game/TemplateData/webmemd-icon.png","enqueuedNodeIndex":752,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":753}
-{"msg":"newNode","annotation":"CopyFiles Webbuild_game/Build/Webbuild_game.framework.js","index":731}
-{"msg":"runNodeAction","annotation":"CopyFiles Webbuild_game/Build/Webbuild_game.framework.js","displayName":"Copying Webbuild_game.framework.js","index":731}
-{"msg":"noderesult","processed_node_count":548,"number_of_nodes_ever_queued":564,"annotation":"CopyFiles Webbuild_game/Build/Webbuild_game.framework.js","index":731,"exitcode":0,"outputfile":"Webbuild_game/Build/Webbuild_game.framework.js"}
-{"msg":"newNode","annotation":"CopyFiles Webbuild_game/Build/Webbuild_game.loader.js","index":739}
-{"msg":"runNodeAction","annotation":"CopyFiles Webbuild_game/Build/Webbuild_game.loader.js","displayName":"Copying Webbuild_game.loader.js","index":739}
-{"msg":"newNode","annotation":"CopyFiles Webbuild_game/TemplateData/unity-logo-light.png","index":750}
-{"msg":"newNode","annotation":"CopyFiles Webbuild_game/TemplateData/unity-logo-title-footer.png","index":751}
-{"msg":"runNodeAction","annotation":"CopyFiles Webbuild_game/TemplateData/unity-logo-title-footer.png","displayName":"Copying unity-logo-title-footer.png","index":751}
-{"msg":"newNode","annotation":"CopyFiles Webbuild_game/TemplateData/MemoryProfiler.png","index":743}
-{"msg":"runNodeAction","annotation":"CopyFiles Webbuild_game/TemplateData/MemoryProfiler.png","displayName":"Copying MemoryProfiler.png","index":743}
-{"msg":"runNodeAction","annotation":"CopyFiles Webbuild_game/TemplateData/unity-logo-light.png","displayName":"Copying unity-logo-light.png","index":750}
-{"msg":"newNode","annotation":"CopyFiles Webbuild_game/TemplateData/webmemd-icon.png","index":752}
-{"msg":"newNode","annotation":"CopyFiles Webbuild_game/TemplateData/unity-logo-dark.png","index":749}
-{"msg":"runNodeAction","annotation":"CopyFiles Webbuild_game/TemplateData/webmemd-icon.png","displayName":"Copying webmemd-icon.png","index":752}
-{"msg":"runNodeAction","annotation":"CopyFiles Webbuild_game/TemplateData/unity-logo-dark.png","displayName":"Copying unity-logo-dark.png","index":749}
-{"msg":"newNode","annotation":"CopyFiles Webbuild_game/TemplateData/fullscreen-button.png","index":742}
-{"msg":"newNode","annotation":"PreprocessJS Webbuild_game/index.html","index":740}
-{"msg":"runNodeAction","annotation":"PreprocessJS Webbuild_game/index.html","displayName":"Preprocessing JavaScript index.html","index":740}
-{"msg":"runNodeAction","annotation":"CopyFiles Webbuild_game/TemplateData/fullscreen-button.png","displayName":"Copying fullscreen-button.png","index":742}
-{"msg":"noderesult","processed_node_count":549,"number_of_nodes_ever_queued":564,"annotation":"CopyFiles Webbuild_game/Build/Webbuild_game.loader.js","index":739,"exitcode":0,"outputfile":"Webbuild_game/Build/Webbuild_game.loader.js"}
-{"msg":"noderesult","processed_node_count":550,"number_of_nodes_ever_queued":564,"annotation":"CopyFiles Webbuild_game/TemplateData/MemoryProfiler.png","index":743,"exitcode":0,"outputfile":"Webbuild_game/TemplateData/MemoryProfiler.png"}
-{"msg":"newNode","annotation":"PreprocessJS Webbuild_game/TemplateData/style.css","index":748}
-{"msg":"runNodeAction","annotation":"PreprocessJS Webbuild_game/TemplateData/style.css","displayName":"Preprocessing JavaScript style.css","index":748}
-{"msg":"newNode","annotation":"CopyFiles Webbuild_game/TemplateData/progress-bar-full-light.png","index":747}
-{"msg":"noderesult","processed_node_count":551,"number_of_nodes_ever_queued":564,"annotation":"CopyFiles Webbuild_game/TemplateData/unity-logo-dark.png","index":749,"exitcode":0,"outputfile":"Webbuild_game/TemplateData/unity-logo-dark.png"}
-{"msg":"runNodeAction","annotation":"CopyFiles Webbuild_game/TemplateData/progress-bar-full-light.png","displayName":"Copying progress-bar-full-light.png","index":747}
-{"msg":"noderesult","processed_node_count":551,"number_of_nodes_ever_queued":564,"annotation":"CopyFiles Webbuild_game/TemplateData/webmemd-icon.png","index":752,"exitcode":0,"outputfile":"Webbuild_game/TemplateData/webmemd-icon.png"}
-{"msg":"noderesult","processed_node_count":551,"number_of_nodes_ever_queued":564,"annotation":"CopyFiles Webbuild_game/TemplateData/unity-logo-title-footer.png","index":751,"exitcode":0,"outputfile":"Webbuild_game/TemplateData/unity-logo-title-footer.png"}
-{"msg":"noderesult","processed_node_count":553,"number_of_nodes_ever_queued":564,"annotation":"CopyFiles Webbuild_game/TemplateData/unity-logo-light.png","index":750,"exitcode":0,"outputfile":"Webbuild_game/TemplateData/unity-logo-light.png"}
-{"msg":"newNode","annotation":"CopyFiles Webbuild_game/TemplateData/progress-bar-empty-dark.png","index":744}
-{"msg":"newNode","annotation":"CopyFiles Webbuild_game/TemplateData/progress-bar-empty-light.png","index":745}
-{"msg":"runNodeAction","annotation":"CopyFiles Webbuild_game/TemplateData/progress-bar-empty-light.png","displayName":"Copying progress-bar-empty-light.png","index":745}
-{"msg":"runNodeAction","annotation":"CopyFiles Webbuild_game/TemplateData/progress-bar-empty-dark.png","displayName":"Copying progress-bar-empty-dark.png","index":744}
-{"msg":"newNode","annotation":"CopyFiles Webbuild_game/TemplateData/progress-bar-full-dark.png","index":746}
-{"msg":"runNodeAction","annotation":"CopyFiles Webbuild_game/TemplateData/progress-bar-full-dark.png","displayName":"Copying progress-bar-full-dark.png","index":746}
-{"msg":"newNode","annotation":"CopyFiles Webbuild_game/TemplateData/favicon.ico","index":741}
-{"msg":"runNodeAction","annotation":"CopyFiles Webbuild_game/TemplateData/favicon.ico","displayName":"Copying favicon.ico","index":741}
-{"msg":"noderesult","processed_node_count":555,"number_of_nodes_ever_queued":564,"annotation":"CopyFiles Webbuild_game/TemplateData/fullscreen-button.png","index":742,"exitcode":0,"outputfile":"Webbuild_game/TemplateData/fullscreen-button.png"}
-{"msg":"noderesult","processed_node_count":556,"number_of_nodes_ever_queued":564,"annotation":"CopyFiles Webbuild_game/TemplateData/progress-bar-full-light.png","index":747,"exitcode":0,"outputfile":"Webbuild_game/TemplateData/progress-bar-full-light.png"}
-{"msg":"noderesult","processed_node_count":556,"number_of_nodes_ever_queued":564,"annotation":"CopyFiles Webbuild_game/TemplateData/progress-bar-empty-light.png","index":745,"exitcode":0,"outputfile":"Webbuild_game/TemplateData/progress-bar-empty-light.png"}
-{"msg":"noderesult","processed_node_count":556,"number_of_nodes_ever_queued":564,"annotation":"CopyFiles Webbuild_game/TemplateData/progress-bar-empty-dark.png","index":744,"exitcode":0,"outputfile":"Webbuild_game/TemplateData/progress-bar-empty-dark.png"}
-{"msg":"noderesult","processed_node_count":559,"number_of_nodes_ever_queued":564,"annotation":"CopyFiles Webbuild_game/TemplateData/progress-bar-full-dark.png","index":746,"exitcode":0,"outputfile":"Webbuild_game/TemplateData/progress-bar-full-dark.png"}
-{"msg":"noderesult","processed_node_count":560,"number_of_nodes_ever_queued":564,"annotation":"CopyFiles Webbuild_game/TemplateData/favicon.ico","index":741,"exitcode":0,"outputfile":"Webbuild_game/TemplateData/favicon.ico"}
-{"msg":"noderesult","processed_node_count":561,"number_of_nodes_ever_queued":564,"annotation":"PreprocessJS Webbuild_game/TemplateData/style.css","index":748,"exitcode":0,"outputfile":"Webbuild_game/TemplateData/style.css"}
-{"msg":"noderesult","processed_node_count":562,"number_of_nodes_ever_queued":564,"annotation":"PreprocessJS Webbuild_game/index.html","index":740,"exitcode":0,"outputfile":"Webbuild_game/index.html"}
-{"msg":"newNode","annotation":"Player","index":753}
-{"msg":"runNodeAction","annotation":"Player","index":753}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Webb_Git_Game/Build/Webb_Git_Game.loader.js","enqueuedNodeIndex":739,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":753}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"PreprocessJS Library/Bee/artifacts/WebGLWebb_Git_Game.loader.js","enqueuedNodeIndex":738,"enqueueingNodeAnnotation":"CopyFiles Webb_Git_Game/Build/Webb_Git_Game.loader.js","enqueueingNodeIndex":739}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"PreprocessJS Webb_Git_Game/index.html","enqueuedNodeIndex":740,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":753}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Webb_Git_Game/TemplateData/favicon.ico","enqueuedNodeIndex":741,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":753}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Webb_Git_Game/TemplateData/fullscreen-button.png","enqueuedNodeIndex":742,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":753}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Webb_Git_Game/TemplateData/MemoryProfiler.png","enqueuedNodeIndex":743,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":753}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Webb_Git_Game/TemplateData/progress-bar-empty-dark.png","enqueuedNodeIndex":744,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":753}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Webb_Git_Game/TemplateData/progress-bar-empty-light.png","enqueuedNodeIndex":745,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":753}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Webb_Git_Game/TemplateData/progress-bar-full-dark.png","enqueuedNodeIndex":746,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":753}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Webb_Git_Game/TemplateData/progress-bar-full-light.png","enqueuedNodeIndex":747,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":753}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"PreprocessJS Webb_Git_Game/TemplateData/style.css","enqueuedNodeIndex":748,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":753}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Webb_Git_Game/TemplateData/unity-logo-dark.png","enqueuedNodeIndex":749,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":753}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Webb_Git_Game/TemplateData/unity-logo-light.png","enqueuedNodeIndex":750,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":753}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Webb_Git_Game/TemplateData/unity-logo-title-footer.png","enqueuedNodeIndex":751,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":753}
+{"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles Webb_Git_Game/TemplateData/webmemd-icon.png","enqueuedNodeIndex":752,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":753}
+{"msg":"newNode","annotation":"CopyFiles Webb_Git_Game/Build/Webb_Git_Game.framework.js","index":731}
+{"msg":"runNodeAction","annotation":"CopyFiles Webb_Git_Game/Build/Webb_Git_Game.framework.js","displayName":"Copying Webb_Git_Game.framework.js","index":731}
+{"msg":"noderesult","processed_node_count":548,"number_of_nodes_ever_queued":564,"annotation":"CopyFiles Webb_Git_Game/Build/Webb_Git_Game.framework.js","index":731,"exitcode":0,"outputfile":"Webb_Git_Game/Build/Webb_Git_Game.framework.js"}
+{"msg":"newNode","annotation":"CopyFiles Webb_Git_Game/Build/Webb_Git_Game.loader.js","index":739}
+{"msg":"runNodeAction","annotation":"CopyFiles Webb_Git_Game/Build/Webb_Git_Game.loader.js","displayName":"Copying Webb_Git_Game.loader.js","index":739}
+{"msg":"newNode","annotation":"CopyFiles Webb_Git_Game/TemplateData/unity-logo-title-footer.png","index":751}
+{"msg":"newNode","annotation":"CopyFiles Webb_Git_Game/TemplateData/unity-logo-dark.png","index":749}
+{"msg":"runNodeAction","annotation":"CopyFiles Webb_Git_Game/TemplateData/unity-logo-title-footer.png","displayName":"Copying unity-logo-title-footer.png","index":751}
+{"msg":"runNodeAction","annotation":"CopyFiles Webb_Git_Game/TemplateData/unity-logo-dark.png","displayName":"Copying unity-logo-dark.png","index":749}
+{"msg":"newNode","annotation":"CopyFiles Webb_Git_Game/TemplateData/unity-logo-light.png","index":750}
+{"msg":"runNodeAction","annotation":"CopyFiles Webb_Git_Game/TemplateData/unity-logo-light.png","displayName":"Copying unity-logo-light.png","index":750}
+{"msg":"newNode","annotation":"CopyFiles Webb_Git_Game/TemplateData/webmemd-icon.png","index":752}
+{"msg":"runNodeAction","annotation":"CopyFiles Webb_Git_Game/TemplateData/webmemd-icon.png","displayName":"Copying webmemd-icon.png","index":752}
+{"msg":"newNode","annotation":"CopyFiles Webb_Git_Game/TemplateData/fullscreen-button.png","index":742}
+{"msg":"runNodeAction","annotation":"CopyFiles Webb_Git_Game/TemplateData/fullscreen-button.png","displayName":"Copying fullscreen-button.png","index":742}
+{"msg":"newNode","annotation":"PreprocessJS Webb_Git_Game/index.html","index":740}
+{"msg":"newNode","annotation":"CopyFiles Webb_Git_Game/TemplateData/MemoryProfiler.png","index":743}
+{"msg":"runNodeAction","annotation":"PreprocessJS Webb_Git_Game/index.html","displayName":"Preprocessing JavaScript index.html","index":740}
+{"msg":"runNodeAction","annotation":"CopyFiles Webb_Git_Game/TemplateData/MemoryProfiler.png","displayName":"Copying MemoryProfiler.png","index":743}
+{"msg":"noderesult","processed_node_count":549,"number_of_nodes_ever_queued":564,"annotation":"CopyFiles Webb_Git_Game/Build/Webb_Git_Game.loader.js","index":739,"exitcode":0,"outputfile":"Webb_Git_Game/Build/Webb_Git_Game.loader.js"}
+{"msg":"newNode","annotation":"PreprocessJS Webb_Git_Game/TemplateData/style.css","index":748}
+{"msg":"runNodeAction","annotation":"PreprocessJS Webb_Git_Game/TemplateData/style.css","displayName":"Preprocessing JavaScript style.css","index":748}
+{"msg":"noderesult","processed_node_count":550,"number_of_nodes_ever_queued":564,"annotation":"CopyFiles Webb_Git_Game/TemplateData/unity-logo-dark.png","index":749,"exitcode":0,"outputfile":"Webb_Git_Game/TemplateData/unity-logo-dark.png"}
+{"msg":"newNode","annotation":"CopyFiles Webb_Git_Game/TemplateData/progress-bar-empty-light.png","index":745}
+{"msg":"runNodeAction","annotation":"CopyFiles Webb_Git_Game/TemplateData/progress-bar-empty-light.png","displayName":"Copying progress-bar-empty-light.png","index":745}
+{"msg":"noderesult","processed_node_count":551,"number_of_nodes_ever_queued":564,"annotation":"CopyFiles Webb_Git_Game/TemplateData/unity-logo-title-footer.png","index":751,"exitcode":0,"outputfile":"Webb_Git_Game/TemplateData/unity-logo-title-footer.png"}
+{"msg":"newNode","annotation":"CopyFiles Webb_Git_Game/TemplateData/progress-bar-full-light.png","index":747}
+{"msg":"runNodeAction","annotation":"CopyFiles Webb_Git_Game/TemplateData/progress-bar-full-light.png","displayName":"Copying progress-bar-full-light.png","index":747}
+{"msg":"noderesult","processed_node_count":552,"number_of_nodes_ever_queued":564,"annotation":"CopyFiles Webb_Git_Game/TemplateData/webmemd-icon.png","index":752,"exitcode":0,"outputfile":"Webb_Git_Game/TemplateData/webmemd-icon.png"}
+{"msg":"noderesult","processed_node_count":552,"number_of_nodes_ever_queued":564,"annotation":"CopyFiles Webb_Git_Game/TemplateData/unity-logo-light.png","index":750,"exitcode":0,"outputfile":"Webb_Git_Game/TemplateData/unity-logo-light.png"}
+{"msg":"noderesult","processed_node_count":552,"number_of_nodes_ever_queued":564,"annotation":"CopyFiles Webb_Git_Game/TemplateData/progress-bar-empty-light.png","index":745,"exitcode":0,"outputfile":"Webb_Git_Game/TemplateData/progress-bar-empty-light.png"}
+{"msg":"noderesult","processed_node_count":554,"number_of_nodes_ever_queued":564,"annotation":"CopyFiles Webb_Git_Game/TemplateData/fullscreen-button.png","index":742,"exitcode":0,"outputfile":"Webb_Git_Game/TemplateData/fullscreen-button.png"}
+{"msg":"newNode","annotation":"CopyFiles Webb_Git_Game/TemplateData/progress-bar-empty-dark.png","index":744}
+{"msg":"newNode","annotation":"CopyFiles Webb_Git_Game/TemplateData/progress-bar-full-dark.png","index":746}
+{"msg":"noderesult","processed_node_count":556,"number_of_nodes_ever_queued":564,"annotation":"CopyFiles Webb_Git_Game/TemplateData/MemoryProfiler.png","index":743,"exitcode":0,"outputfile":"Webb_Git_Game/TemplateData/MemoryProfiler.png"}
+{"msg":"noderesult","processed_node_count":556,"number_of_nodes_ever_queued":564,"annotation":"CopyFiles Webb_Git_Game/TemplateData/progress-bar-full-light.png","index":747,"exitcode":0,"outputfile":"Webb_Git_Game/TemplateData/progress-bar-full-light.png"}
+{"msg":"runNodeAction","annotation":"CopyFiles Webb_Git_Game/TemplateData/progress-bar-full-dark.png","displayName":"Copying progress-bar-full-dark.png","index":746}
+{"msg":"runNodeAction","annotation":"CopyFiles Webb_Git_Game/TemplateData/progress-bar-empty-dark.png","displayName":"Copying progress-bar-empty-dark.png","index":744}
+{"msg":"newNode","annotation":"CopyFiles Webb_Git_Game/TemplateData/favicon.ico","index":741}
+{"msg":"runNodeAction","annotation":"CopyFiles Webb_Git_Game/TemplateData/favicon.ico","displayName":"Copying favicon.ico","index":741}
+{"msg":"noderesult","processed_node_count":558,"number_of_nodes_ever_queued":564,"annotation":"CopyFiles Webb_Git_Game/TemplateData/favicon.ico","index":741,"exitcode":0,"outputfile":"Webb_Git_Game/TemplateData/favicon.ico"}
+{"msg":"noderesult","processed_node_count":559,"number_of_nodes_ever_queued":564,"annotation":"CopyFiles Webb_Git_Game/TemplateData/progress-bar-empty-dark.png","index":744,"exitcode":0,"outputfile":"Webb_Git_Game/TemplateData/progress-bar-empty-dark.png"}
+{"msg":"noderesult","processed_node_count":560,"number_of_nodes_ever_queued":564,"annotation":"CopyFiles Webb_Git_Game/TemplateData/progress-bar-full-dark.png","index":746,"exitcode":0,"outputfile":"Webb_Git_Game/TemplateData/progress-bar-full-dark.png"}
+{"msg":"noderesult","processed_node_count":561,"number_of_nodes_ever_queued":564,"annotation":"PreprocessJS Webb_Git_Game/index.html","index":740,"exitcode":0,"outputfile":"Webb_Git_Game/index.html"}
+{"msg":"noderesult","processed_node_count":561,"number_of_nodes_ever_queued":564,"annotation":"PreprocessJS Webb_Git_Game/TemplateData/style.css","index":748,"exitcode":0,"outputfile":"Webb_Git_Game/TemplateData/style.css"}

@@ -6,9 +6,9 @@ public class animalMovement : MonoBehaviour
     //variables
 
     //movement variables (like speed, their limiations of movement etc.)
-    public float speed = 2f; 
+    public float speed = 10f; 
     public float roamRadius = 10f;
-    public float changeTime = 3f;
+    public float changeTime = 15f;
     private Vector3 startPosition;
     private Vector3 endPosition;
     private float timer;
@@ -48,12 +48,18 @@ public class animalMovement : MonoBehaviour
     void Update()
     {
         timer -= Time.deltaTime;
-        transform.position = Vector3.MoveTowards(transform.position, endPosition, speed * Time.deltaTime); //makes the animal move to the end position location
 
-        //rotate the animal in the direction of which it's moving
+        //movement
         Vector3 direction = (endPosition - transform.position).normalized;
-        Vector3 velocity = direction * speed; //velocity of animal
-        theRigidbody.linearVelocity = new Vector3(velocity.x, theRigidbody.linearVelocity.y, velocity.z); //keeping the animal on the terrain (at the y velo)
+        velocity.x = direction.x * speed;
+        velocity.z = direction.z * speed;
+
+        //gravity to vertical velocity
+        velocity.y += gravity * Time.deltaTime;
+
+        //apply it to the rigid body
+        theRigidbody.linearVelocity = velocity;
+        transform.position = Vector3.MoveTowards(transform.position, endPosition, speed * Time.deltaTime); //makes the animal move to the end position location
 
         if (direction != Vector3.zero)
         {
@@ -70,10 +76,28 @@ public class animalMovement : MonoBehaviour
 
     }
 
+    /*
     void PickNewDestination()
     {
         timer = changeTime; //setting the timer to the value of change time which controls how much time passes before the animal changes direction
+        startPosition = transform.position;
         Vector3 randomDirection = new Vector3(Random.Range(-roamRadius, roamRadius),0, Random.Range(-roamRadius, roamRadius)); //heading in a random direction
+        endPosition = startPosition + randomDirection;
+    }
+*/
+
+    void PickNewDestination()
+    {
+        timer = changeTime;
+        startPosition = transform.position;
+
+        Vector3 randomDirection;
+        do
+        {
+            randomDirection = new Vector3(Random.Range(-roamRadius, roamRadius), 0, Random.Range(-roamRadius, roamRadius));
+        }
+        while (randomDirection.magnitude < 1f);
+
         endPosition = startPosition + randomDirection;
     }
 
