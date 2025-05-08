@@ -5,6 +5,7 @@ public class shooting : MonoBehaviour
     //bullet movement variables
     public GameObject bullet;
     private Transform firePoint;
+    public AudioSource gunShot;
 
     void Start()
     {
@@ -30,6 +31,7 @@ public class shooting : MonoBehaviour
         {
             //create a bullet when click
             Instantiate(bullet, firePoint.position, firePoint.rotation);
+            gunShot.Play();
 
         }
 

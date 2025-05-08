@@ -9,6 +9,7 @@ public class AxeHit : MonoBehaviour
     private bool isSwinging = false;
     private float swingProgress = 0f;
     public int damage;
+    public AudioSource axeHit;
 
     
     void Start()
@@ -21,6 +22,7 @@ public class AxeHit : MonoBehaviour
         if (Input.GetMouseButtonDown(0) && !isSwinging) //if the player clicks, and the axe is not in hit/swing mode
         {
             isSwinging = true; //turn the axe into swing mode
+            axeHit.Play();
             swingProgress = 0f; //begin the cycle of one swing
         }
 

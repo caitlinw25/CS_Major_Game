@@ -10,6 +10,7 @@ public class KnifeHit : MonoBehaviour
     private bool isSwinging = false;
     private float swingProgress = 0f;
     public int damage;
+    public AudioSource knifeSound;
 
     void Start()
     {
@@ -21,6 +22,7 @@ public class KnifeHit : MonoBehaviour
         if (Input.GetMouseButtonDown(0) && !isSwinging) //if the player clicks, and the axe is not in hit/swing mode
         {
             isSwinging = true; //turn the axe into swing mode
+            knifeSound.Play();
             swingProgress = 0f; //begin the cycle of one swing
         }
 
