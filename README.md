@@ -21,3 +21,8 @@ $ Click F to switch Player POV
 $ You can cut down trees, kill animals, and pick up items
 
 ```
+## Future Improvements
+
+- Ability to create items from wood
+- Use coins to purchase/do something
+- Add a variety of enemy mobs
